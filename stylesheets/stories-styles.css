@@ -25,12 +25,17 @@ h1 {font-weight: 500; font-style: normal; }
 #mc_embed_signup input.email {}
 #mc_embed_signup input::-webkit-input-placeholder { color: #fff;}
 #mc_embed_signup input:focus {outline:none; border: solid 2px #fff;}
-			#mc_embed_signup div.mce_inline_error {
+#mc_embed_signup div.mce_inline_error {
     background-color: #000 !important;
     font-weight: 700 !important;
     font-size: 14px !important;
     z-index: 1;
     color: #fff;
+}
+#mc_embed_signup div#mce-success-response {
+	font-size: 14px;
+    font-weight: 700;
+    margin-top: 1em;
 }
 #mc_embed_signup input.mce_inline_error {
     border-color: #000 !important;

@@ -12,7 +12,7 @@ body {
 a { color: #fff; }
 a:hover { color: #fff; }
 
-#site-header {padding: 0 40px;}
+#site-header {padding: 0 5%;}
 
 h1 {font-weight: 500; font-style: normal; }
 
@@ -43,3 +43,8 @@ h1 {font-weight: 500; font-style: normal; }
 #mc_embed_signup .button { background-color: #fff; color: #000; border-radius: 0px; font-weight: 500;}
 
 #site-footer {padding: 3em 0 0 0; font-size: 12px;}
+
+@media screen and (max-width: 400px) {
+	#site-header {padding: 0px}
+	.big-header {font-size: 32px; margin-left: -1px; }
+}

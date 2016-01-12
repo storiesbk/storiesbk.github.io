@@ -3,7 +3,7 @@ body {
 	background-image: url("../img/bg-paper.jpg");
 	background-size: 1280px;
 	color: #000;
-	font-size: 18px;
+	font-size: 19px;
 	font-weight: 500;
 	font-style: normal;
 	-webkit-font-smoothing: antialiased;
@@ -11,6 +11,14 @@ body {
 
 #site-header {padding: 0 40px;}
 
-h1{font-weight: 500; font-style: normal; }
+h1 {font-weight: 500; font-style: normal; }
 
-.white {color: #fff;}
+.white { color: #fff;}
+
+.big-header {font-size: 44px; }
+
+#mc_embed_signup {padding: 2em 0; height: 160px;}
+#mc_embed_signup input { width: 100%; font-size: 24px; padding: 0.5em; background-color: transparent; border: solid 2px #fff; color: #fff;}
+#mc_embed_signup .button { background-color: #fff; color: #000; border-radius: 0px; font-weight: 500;}
+
+#site-footer {padding: 1em 0 0 0; text-align: center; font-size: 12px;}

@@ -9,16 +9,32 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
+a { color: #fff; }
+a:hover { color: #fff; }
+
 #site-header {padding: 0 40px;}
 
 h1 {font-weight: 500; font-style: normal; }
 
 .white { color: #fff;}
 
-.big-header {font-size: 44px; }
+.big-header {font-size: 46px; margin-left: -5px; }
 
-#mc_embed_signup {padding: 2em 0; height: 160px;}
-#mc_embed_signup input { width: 100%; font-size: 24px; padding: 0.5em; background-color: transparent; border: solid 2px #fff; color: #fff;}
+#mc_embed_signup {}
+#mc_embed_signup input { width: 100%; font-size: 24px; padding: 0.5em; margin-top: 1em; background-color: transparent; border: solid 2px #fff; color: #fff;}
+#mc_embed_signup input.email {}
+#mc_embed_signup input::-webkit-input-placeholder { color: #fff;}
+#mc_embed_signup input:focus {outline:none; border: solid 2px #fff;}
+			#mc_embed_signup div.mce_inline_error {
+    background-color: #000 !important;
+    font-weight: 700 !important;
+    font-size: 14px !important;
+    z-index: 1;
+    color: #fff;
+}
+#mc_embed_signup input.mce_inline_error {
+    border-color: #000 !important;
+}
 #mc_embed_signup .button { background-color: #fff; color: #000; border-radius: 0px; font-weight: 500;}
 
-#site-footer {padding: 1em 0 0 0; text-align: center; font-size: 12px;}
+#site-footer {padding: 3em 0 0 0; text-align: center; font-size: 12px;}

@@ -1,5 +1,16 @@
 body {
-	padding: 10vw 0;
+	padding: 2vw 0;
 	background-image: url("../img/bg-paper.jpg");
 	background-size: 1280px;
+	color: #000;
+	font-size: 18px;
+	font-weight: 500;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
 }
+
+#site-header {padding: 0 40px;}
+
+h1{font-weight: 500; font-style: normal; }
+
+.white {color: #fff;}

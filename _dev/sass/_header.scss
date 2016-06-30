@@ -1,0 +1,134 @@
+#header {
+  nav {
+    margin: 0 auto;
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-around;
+    padding: $spacer-y $spacer-x;
+    align-items: center;
+    font-family: $font-family-sans-serif-bold;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline;
+  }
+
+  nav > a {
+    background-image: url('/img/storieslogofull.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100px;
+    width: 220px;
+    overflow: hidden;
+    text-indent: -9999px;
+    body:not(.home) & {
+      height: auto;
+      background-image: url('/img/storieslogo.png');
+    }
+  }
+
+  ul:first-of-type {
+    li {
+      margin-right: $spacer-x * 2;
+    }
+    li:last-of-type {
+      margin-right: 0;
+    }
+  }
+
+  ul:last-of-type {
+    li {
+      margin-left: $spacer-x * 2;
+    }
+    li:first-of-type {
+      margin-left: 0;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    ul {
+      display: none;
+    }
+    nav {
+      position: relative;
+
+    }
+  }
+}
+
+
+#mobile-nav {
+  display: none;
+  @media screen and (max-width: 768px) {
+    display: block;
+    padding: 3rem;
+    line-height: 3;
+    font-size: 1.3rem;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    z-index: 99999;
+    opacity: 0;
+    visibility: hidden;
+    &.visible {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    list-style-type: none;
+  }
+  a {
+    display: block;
+  }
+}
+
+button.menu-button {
+  appearance: none;
+  background: transparent;
+  border: none;
+  display: block;
+  position: absolute;
+  left: 1rem;
+  right: 0;
+  top: 50%;
+  margin-top: -1.5rem;
+  display: none;
+  height: 3rem;
+  width: 2.5rem;
+  outline: none;
+  span {
+    display: block;
+    background: $blue;
+    height: 2px;
+    border-radius: 1px;
+    margin: .3rem 0;
+    width: 100%;
+  }
+  @media screen and (max-width: 768px) {
+    display: block;
+  }
+}
+
+button.close-button {
+  position: fixed;
+  top: 2rem;
+  left: 1rem;
+  background: transparent;
+  border: none;
+  outline: none;
+}

@@ -1,0 +1,67 @@
+.bg-orange {
+  background-color: $bg-orange;
+}
+.bg-gray {
+  background-color: $bg-gray;
+}
+.bg-light-yellow {
+  background: $light-yellow;
+}
+.bg-light-blue {
+  background: $light-blue;
+}
+.bg-light-orange {
+  background: $light-orange;
+}
+.bg-light-light-orange {
+  background: $light-light-orange;
+}
+.bg-light-blue {
+  background: $light-blue;
+}
+
+.color-dark-blue {
+  color: $dark-blue;
+  a {
+    color: inherit;
+  }
+  .form-control,
+  .btn,
+  .btn-primary-outline {
+    border-color: $dark-blue;
+    color: $dark-blue;
+  }
+  .btn,
+  .btn-primary-outline {
+    &:hover {
+      color: #fff;
+      background: $dark-blue;
+    }
+  }
+}
+
+.color-blue {
+  color: $blue;
+  a {
+    color: inherit;
+  }
+}
+.color-orange {
+  color: $orange;
+  a {
+    color: inherit;
+  }
+  .form-control,
+  .btn,
+  .btn-primary-outline {
+    border-color: $orange;
+    color: $orange;
+  }
+  .btn,
+  .btn-primary-outline {
+    &:hover {
+      color: #fff;
+      background: $orange;
+    }
+  }
+}

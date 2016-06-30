@@ -1,0 +1,94 @@
+body.home #header,
+.top-section {
+  background: $light-orange;
+}
+
+
+.flex-full-height {
+  display: flex;
+  align-items: stretch;
+  & > div > div {
+    max-width: 600px;
+  }
+  & > div:first-of-type {
+    text-align: right;
+    display: inline-block;
+    & > div {
+      display: inline-block;
+      text-align: left;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    display: block;
+    .p-a-6 {
+      padding: 3rem !important;
+    }
+  }
+}
+
+body.home #header nav {
+  z-index: 1000;
+}
+
+.top-section {
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  .container {
+    z-index: 1000;
+  }
+}
+
+
+
+
+@keyframes slidein {
+  0% {
+    left: calc(50% + 24vw);
+  }
+  100% {
+    left: calc(0% - 24vw);
+    animation-name: flip;
+  }
+}
+
+@keyframes flip {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(-1);
+  }
+}
+
+
+.cloud {
+  position: absolute;
+  z-index: 0;
+}
+
+#cloud1 {
+  top: calc(50% + 120px);
+  left: calc(50% - 145px);
+}
+
+#cloud2 {
+  top: calc(50% - 220px);
+  left: calc(50% + 30vw);
+  z-index: 0;
+}
+
+#cloud3 {
+  top: calc(50% - 210px);
+  left: calc(50% - 600px);
+}
+
+#person {
+  position: absolute;
+  top: calc(50% - 230px);
+  left: calc(50% + 24vw);
+  animation-duration: 60s;
+  animation-timing-function: linear;
+  animation-name: slidein;
+}

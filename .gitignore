@@ -2,10 +2,4 @@ _site
 .sass-cache
 .jekyll-metadata
 
-!node_modules
-
-node_modules/*
-!node_modules/bootstrap/
-
-node_modules/bootstrap/*
-!node_modules/bootstrap/scss/
+node_modules

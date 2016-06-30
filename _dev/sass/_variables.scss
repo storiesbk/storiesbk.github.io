@@ -1,0 +1,74 @@
+// OUR CUSTOM VARIABLES
+$blue: #5682fb;
+$light-blue: #e2f7fe;
+$nav-blue: #b6c9ff;
+$orange: #fc6852;
+$light-orange: #ffefe7;
+$light-light-orange: #fffaf7;
+$light-yellow: #faf5af;
+$bg-orange: #ffddc6;
+$red: red;
+$light-red: violet;
+$white: #fff;
+$light-brand: #b3c0ea;
+$bg-gray: #f3f5f2;
+$pink: #ffddc6;
+$purple: #3b3f80;
+$weekly-storytelling: rgb(216, 246, 239);
+$dark-blue: rgb(61,68,172);
+
+
+// BOOTSTRAP VARIABLES
+
+$body-color: $blue;
+
+$font-size-root: 16px;
+
+$font-family-sans-serif:  "CircularStd-Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-sans-serif-bold:  "CircularStd-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-serif:       "TrianonCaption-Regular", "Times New Roman", Times, serif;
+$font-family-serif-light:       "TrianonCaption-Light", "Times New Roman", Times, serif;
+
+$headings-font-family:    $font-family-serif-light;
+$headings-font-weight:    500;
+$headings-line-height:    1.3;
+$headings-color:          inherit;
+
+$brand-primary: $blue;
+
+$input-border-color: $brand-primary;
+$input-color-placeholder: $brand-primary;
+
+$input-btn-border-width: 2px;
+
+$spacer:                     1rem !default;
+$spacer-x:                   $spacer !default;
+$spacer-y:                   $spacer !default;
+
+$spacers: (
+  0: (
+    x:   0,
+    y:   0
+  ),
+  1: (
+    x:   $spacer-x,
+    y:   $spacer-y
+  ),
+  2: (
+    x:   ($spacer-x * 1.5),
+    y:   ($spacer-y * 1.5)
+  ),
+  3: (
+    x:   ($spacer-x * 3),
+    y:   ($spacer-y * 3)
+  ),
+  6: (
+    x:   ($spacer-x * 6),
+    y:   ($spacer-y * 6)
+  )
+);
+
+
+$border-radius: 0;
+$border-radius-lg: 0;
+$border-radius-sm: 0;

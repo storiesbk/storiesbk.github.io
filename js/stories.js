@@ -9823,6 +9823,11 @@ return jQuery;
 
     $(window).scroll(function(){
       console.log('ok')
+      if(window.scrollY > 120) {
+        $('#mobile-nav').addClass('at-top')
+      } else {
+        $('#mobile-nav').removeClass('at-top')
+      }
     })
 
 

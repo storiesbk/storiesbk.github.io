@@ -4,7 +4,7 @@
     max-width: 1140px;
     display: flex;
     justify-content: space-around;
-    padding: $spacer-y $spacer-x;
+    padding: $spacer-y $spacer-x * 2.5;
     align-items: center;
     font-family: $font-family-sans-serif-bold;
   }
@@ -131,4 +131,70 @@ button.close-button {
   background: transparent;
   border: none;
   outline: none;
+}
+
+
+#mobile-nav {
+  @media screen and (min-width: 769px) {
+    button.close-button {
+      display: none;
+    }
+    position: fixed;
+      text-align: center;
+      top: -50px;
+      left: 0;
+      right: 0;
+      background: #fff;
+      visibility: visible;
+      opacity: 1;
+      display: block;
+      z-index: 9999;
+      line-height: 50px;
+      transition: top 200ms;
+    &.at-top {
+      top: 0px;
+    }
+    a {
+      display: block;
+      height: 50px;
+    }
+    a.stories-logo {
+      background-image: url('/img/storieslogo.png');
+      height: 50px;
+      width: 120px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      display: block;
+      overflow: hidden;
+      text-indent: -1000px;
+      border-bottom: none;
+      background-position: center center;
+    }
+    ul {
+      font-family: $font-family-sans-serif-bold;
+      display: flex;
+      justify-content: space-around;
+      & > div:first-of-type {
+        li {
+          margin-right: $spacer-x * 2;
+        }
+        li:last-of-type {
+          margin-right: 0;
+        }
+      }
+
+      & > div:last-of-type {
+        li {
+          margin-left: $spacer-x * 2;
+        }
+        li:first-of-type {
+          margin-left: 0;
+        }
+      }
+    }
+    li {
+      display: inline-block;
+      line-height: 50px;
+    }
+  }
 }

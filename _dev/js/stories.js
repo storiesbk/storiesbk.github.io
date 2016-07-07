@@ -34,5 +34,13 @@
       $('#mobile-fullscreen-menu').removeClass('visible')
     })
 
+    // Hide menu if the user resizes the menu into desktop
+    // layout while the mobile fullscreen menu is open
+    $(window).resize(function(e){
+      if( $('#mobile-fullscreen-menu').hasClass('visible') ) {
+        $('#mobile-fullscreen-menu').removeClass('visible');
+      }
+    })
+
   })
 })(jQuery);

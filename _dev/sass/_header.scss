@@ -232,6 +232,9 @@ button.close-button {
     visibility: visible;
     opacity: 1;
     display: block;
+    @media screen and (min-width: 769px) {
+      display: none;
+    }
   }
   ul {
     list-style-type: none;

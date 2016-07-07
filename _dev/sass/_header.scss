@@ -67,24 +67,24 @@
 #mobile-nav {
   display: none;
   @media screen and (max-width: 768px) {
-    display: block;
-    padding: 3rem;
-    line-height: 3;
-    font-size: 1.3rem;
-    text-align: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: #fff;
-    z-index: 99999;
-    opacity: 0;
-    visibility: hidden;
-    &.visible {
-      visibility: visible;
-      opacity: 1;
-    }
+    // padding: 3rem;
+    // line-height: 3;
+    // font-size: 1.3rem;
+    // text-align: center;
+    // position: fixed;
+    // top: 0;
+    // left: 0;
+    // right: 0;
+    // bottom: 0;
+    // background: #fff;
+    // z-index: 99999;
+    // opacity: 0;
+    // visibility: hidden;
+    // &.visible {
+    //   visibility: visible;
+    //   opacity: 1;
+    //   display: block;
+    // }
   }
   ul {
     margin: 0;
@@ -95,6 +95,11 @@
   }
   a {
     display: block;
+  }
+  @media screen and (min-width: 769px) {
+    button.menu-button {
+      display: none;
+    }
   }
 }
 
@@ -136,22 +141,24 @@ button.close-button {
 
 
 #mobile-nav {
-  @media screen and (min-width: 769px) {
+  // @media screen and (min-width: 769px) {
     button.close-button {
       display: none;
     }
+
     position: fixed;
-      text-align: center;
-      top: -50px;
-      left: 0;
-      right: 0;
-      background: #fff;
-      visibility: visible;
-      opacity: 1;
-      display: block;
-      z-index: 9999;
-      line-height: 50px;
-      transition: top 200ms;
+    text-align: center;
+    top: -50px;
+    left: 0;
+    right: 0;
+    background: #fff;
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    z-index: 9999;
+    line-height: 50px;
+    transition: top 200ms;
+
     &.at-top {
       top: 0px;
     }
@@ -197,5 +204,38 @@ button.close-button {
       display: inline-block;
       line-height: 50px;
     }
+    @media screen and (max-width: 768px) {
+      ul > div {
+        display: none;
+      }
+    }
+  // }
+}
+
+
+
+#mobile-fullscreen-menu {
+  padding: 3rem;
+  line-height: 3;
+  font-size: 1.3rem;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  z-index: 99999;
+  opacity: 0;
+  visibility: hidden;
+  &.visible {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
   }
 }

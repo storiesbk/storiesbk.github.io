@@ -5,7 +5,6 @@
     var currentPathName = location.pathname;
     $('a[href="'+currentPathName+'"]').addClass('active');
 
-
     $(window).scroll(function(){
       console.log('ok')
       if(window.scrollY > 120) {
@@ -14,7 +13,6 @@
         $('#mobile-nav').removeClass('at-top')
       }
     })
-
 
     // Open the mobile menu
     $('.menu-button').click(function(e){

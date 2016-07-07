@@ -1,8 +1,26 @@
-body.home #header,
+body.home #header {
+  background: transparent;
+}
 .top-section {
   background: $light-orange;
 }
 
+body.home #header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right:0;
+}
+
+body.home .top-section {
+  padding-top: 150px;
+}
+
+.top-section {
+  overflow: hidden;
+  max-width: 100%;
+  position: relative;
+}
 
 .flex-full-height {
   display: flex;

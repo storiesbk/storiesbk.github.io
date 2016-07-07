@@ -132,11 +132,16 @@ button.menu-button {
 
 button.close-button {
   position: fixed;
-  top: 2rem;
+  top: 0rem;
   left: 1rem;
+  line-height: 1.5rem;
+  width: 2rem;
+  text-align: center;
   background: transparent;
   border: none;
   outline: none;
+  height: 3rem;
+  width: 2.5rem;
 }
 
 
@@ -215,7 +220,7 @@ button.close-button {
 
 
 #mobile-fullscreen-menu {
-  padding: 3rem;
+
   line-height: 3;
   font-size: 1.3rem;
   text-align: center;
@@ -228,6 +233,23 @@ button.close-button {
   z-index: 99999;
   opacity: 0;
   visibility: hidden;
+  padding: 1rem 2.5rem;
+  ul li:first-of-type {
+    line-height: 24px;
+  }
+  a.stories-logo {
+      background-image: url('/img/storieslogo.png');
+      height: 1.5rem;
+      width: 120px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      display: block;
+      margin: 0 auto;
+      overflow: hidden;
+      text-indent: -1000px;
+      border-bottom: none;
+      background-position: center center;
+    }
   &.visible {
     visibility: visible;
     opacity: 1;

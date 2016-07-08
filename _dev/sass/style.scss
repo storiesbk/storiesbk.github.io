@@ -198,6 +198,17 @@ nav ul a.active {
   }
 }
 
+.month-header {
+  font-family: $font-family-sans-serif-bold;
+  text-transform: uppercase;
+  border-bottom: 2px solid;
+  font-size: 18px;
+  letter-spacing: 0.15rem;
+  vertical-align: middle;
+  display: inline-block;
+  line-height: 1;
+}
+
 
 .btn {
   line-height: 2;

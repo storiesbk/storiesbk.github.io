@@ -2,10 +2,10 @@
 @import url("//hello.myfonts.net/count/314daa");
 
 
-@font-face {font-family: 'Sailec-Bold';src: url('/fonts/314DAA_0_0.eot');src: url('/fonts/314DAA_0_0.eot?#iefix') format('embedded-opentype'),url('/fonts/314DAA_0_0.woff2') format('woff2'),url('/fonts/314DAA_0_0.woff') format('woff'),url('/fonts/314DAA_0_0.ttf') format('truetype'); font-weight: normal;  font-style: normal;   -webkit-font-smoothing: antialiased;}
+@font-face {font-family: 'Sailec-Bold';src: url('../fonts/314DAA_0_0.eot');src: url('../fonts/314DAA_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/314DAA_0_0.woff2') format('woff2'),url('../fonts/314DAA_0_0.woff') format('woff'),url('../fonts/314DAA_0_0.ttf') format('truetype'); font-weight: normal;  font-style: normal;   -webkit-font-smoothing: antialiased;}
 
 
-@font-face {font-family: 'Sailec-Regular';src: url('/fonts/314DAA_1_0.eot');src: url('/fonts/314DAA_1_0.eot?#iefix') format('embedded-opentype'),url('/fonts/314DAA_1_0.woff2') format('woff2'),url('/fonts/314DAA_1_0.woff') format('woff'),url('/fonts/314DAA_1_0.ttf') format('truetype');   font-weight: normal;  font-style: normal;   -webkit-font-smoothing: antialiased;}
+@font-face {font-family: 'Sailec-Regular';src: url('../fonts/314DAA_1_0.eot');src: url('../fonts/314DAA_1_0.eot?#iefix') format('embedded-opentype'),url('../fonts/314DAA_1_0.woff2') format('woff2'),url('../fonts/314DAA_1_0.woff') format('woff'),url('../fonts/314DAA_1_0.ttf') format('truetype');   font-weight: normal;  font-style: normal;   -webkit-font-smoothing: antialiased;}
 
 
 // @font-face {
@@ -26,7 +26,7 @@
 
 @font-face {
   font-family: 'TrianonCaption-Light';
-  src: url('/fonts/TrianonCaption-Light.otf') format('truetype');
+  src: url('../fonts/TrianonCaption-Light.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
@@ -34,7 +34,7 @@
 
 @font-face {
   font-family: 'TrianonCaption-LightItalic';
-  src: url('/fonts/TrianonCaption-LightItalic.otf') format('truetype');
+  src: url('../fonts/TrianonCaption-LightItalic.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
@@ -42,7 +42,7 @@
 
 @font-face {
   font-family: 'TrianonCaption-Regular';
-  src: url('/fonts/TrianonCaption-Regular.otf') format('truetype');
+  src: url('../fonts/TrianonCaption-Regular.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
   -webkit-font-smoothing: antialiased;

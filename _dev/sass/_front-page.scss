@@ -55,11 +55,17 @@ body.home #header nav {
   display: flex;
   align-items: center;
   .container {
-    z-index: 1000;
+    // z-index: 1000;
   }
 }
 
-
+#visit-image {
+  background-image: url(../img/stories_exterior.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  display: block;
+}
 
 
 @keyframes slidein {
@@ -107,7 +113,7 @@ body.home #header nav {
 
 #person {
   position: absolute;
-  top: calc(50% - 230px);
+  top: calc(50% - 200px);
   left: calc(50% + 24vw);
-  animation: slidein 24s linear infinite;
+  animation: slidein 120s linear infinite;
 }

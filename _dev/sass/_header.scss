@@ -4,7 +4,7 @@
     margin: 0 auto;
     max-width: 1140px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: $spacer-y $spacer-x * 2.5;
     align-items: center;
     font-family: $font-family-sans-serif-bold;
@@ -186,7 +186,7 @@ button.close-button {
     ul {
       font-family: $font-family-sans-serif-bold;
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
       & > div:first-of-type {
         li {
           margin-right: $spacer-x * 2;

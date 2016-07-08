@@ -20,7 +20,7 @@
   }
 
   nav > a {
-    background-image: url('/img/storieslogofull.png');
+    background-image: url('../img/storieslogofull.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -32,11 +32,11 @@
     text-indent: -9999px;
     body:not(.home) & {
       height: auto;
-      background-image: url('/img/storieslogo.png');
+      background-image: url('../img/storieslogo.png');
     }
   }
 
-  
+
 
   ul:first-of-type {
     li {
@@ -166,13 +166,13 @@ button.close-button {
     width: 100%;
   }
 
-  
+
   a {
     display: block;
     // height: 50px;
   }
   a.stories-logo {
-    background-image: url('/img/storieslogo.png');
+    background-image: url('../img/storieslogo.png');
     // height: 50px;
     width: 120px;
     background-size: contain;
@@ -237,7 +237,7 @@ button.close-button {
     line-height: 24px;
   }
   a.stories-logo {
-      background-image: url('/img/storieslogo.png');
+      background-image: url('../img/storieslogo.png');
       height: 1.5rem;
       width: 220px;
       background-size: contain;

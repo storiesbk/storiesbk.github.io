@@ -79,6 +79,7 @@ body {
 }
 
 h1, .h1 {
+  font-family: $font-family-serif-light;
   font-size: $h1-font-size;
   line-height: $h1-line-height;
 }
@@ -94,11 +95,13 @@ h3, .h3 {
 }
 
 h4, .h4 {
+  font-family: $font-family-serif-light;
   font-size: $h4-font-size;
   font-weight: $h4-line-height;
 }
 
 h5, .h5 {
+  font-family: $font-family-serif-light;
   font-size: $h5-font-size;
   line-height: $h5-line-height;
 }
@@ -189,7 +192,7 @@ nav ul a.active {
 
 
 .lead {
-  line-height: 26px;
+  line-height: 28px;
   a {
     font-weight: bold;
   }
@@ -208,4 +211,3 @@ img {
   max-width: 100%;
   height: auto;
 }
-

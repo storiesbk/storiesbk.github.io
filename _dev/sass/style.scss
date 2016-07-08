@@ -209,3 +209,9 @@ img {
   height: auto;
 }
 
+#header,
+#mobile-nav {
+  a:hover {
+    text-decoration: none;
+  }
+}

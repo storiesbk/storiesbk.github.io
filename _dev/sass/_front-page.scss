@@ -3,6 +3,7 @@ body.home #header {
 }
 .top-section {
   background: $light-orange;
+  background: #ffddc6;
 }
 
 body.home #header {
@@ -63,23 +64,25 @@ body.home #header nav {
 
 @keyframes slidein {
   0% {
-    left: calc(50% + 24vw);
+    left: 100%;
+    transform: rotate3d(0,1,0,0deg);
+  }
+  50% {
+    left: -25%;
+    transform: rotate3d(0,1,0,0deg);
+  }
+  51% {
+    right: -125%;
+    transform: rotate3d(0,1,0,180deg);
+  }
+  99% {
+    transform: rotate3d(0,1,0,180deg);
   }
   100% {
-    left: calc(0% - 24vw);
-    animation-name: flip;
+    left: 125%;
+    transform: rotate3d(0,1,0,0deg);
   }
 }
-
-@keyframes flip {
-  0% {
-    transform: scaleX(0);
-  }
-  100% {
-    transform: scaleX(-1);
-  }
-}
-
 
 .cloud {
   position: absolute;
@@ -106,7 +109,5 @@ body.home #header nav {
   position: absolute;
   top: calc(50% - 230px);
   left: calc(50% + 24vw);
-  animation-duration: 60s;
-  animation-timing-function: linear;
-  animation-name: slidein;
+  animation: slidein 24s linear infinite;
 }

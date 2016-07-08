@@ -27,6 +27,8 @@
     height: 100px;
     width: 220px;
     overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
     text-indent: -9999px;
     body:not(.home) & {
       height: auto;
@@ -129,7 +131,7 @@ button.close-button {
 
 
 #mobile-nav {
-
+  align-items: center;
   position: fixed;
   text-align: center;
   top: -150px;
@@ -157,6 +159,7 @@ button.close-button {
     justify-content: space-between;
     padding: $spacer-y $spacer-x;
     margin: 0 auto;
+    align-items: center;
     width: 100%;
   }
   ul {

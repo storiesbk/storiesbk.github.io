@@ -109,47 +109,42 @@ h6, .h6 {
   line-height: $h6-line-height;
 }
 
-$mobile-heading-scale: .8;
+
 
 
 @media screen and (max-width: 768px) {
   h1, .h1 {
-  font-size: $h1-font-size * $mobile-heading-scale;
-  line-height: $h1-line-height * $mobile-heading-scale;
+    font-size: $h1-font-size * $mobile-heading-scale;
+    line-height: $h1-line-height * $mobile-heading-scale;
+  }
+
+  h2, .h2 {
+    font-size: $h2-font-size * $mobile-heading-scale;
+    line-height: $h2-line-height * $mobile-heading-scale;
+  }
+
+  h3, .h3 {
+    font-size: $h3-font-size * $mobile-heading-scale;
+    line-height: $h3-line-height * $mobile-heading-scale;
+  }
+
+  h4, .h4 {
+    font-size: $h4-font-size * $mobile-heading-scale;
+    font-weight: $h4-line-height * $mobile-heading-scale;
+  }
+
+  h5, .h5 {
+    font-size: $h5-font-size * $mobile-heading-scale;
+    line-height: $h5-line-height * $mobile-heading-scale;
+  }
+
+  h6, .h6 {
+    font-size: $h6-font-size * $mobile-heading-scale;
+    font-family: $font-family-sans-serif-bold;
+    line-height: $h6-line-height * $mobile-heading-scale;
+  }
+
 }
-
-h2, .h2 {
-  font-size: $h2-font-size * $mobile-heading-scale;
-  line-height: $h2-line-height * $mobile-heading-scale;
-}
-
-h3, .h3 {
-  font-size: $h3-font-size * $mobile-heading-scale;
-  line-height: $h3-line-height * $mobile-heading-scale;
-}
-
-h4, .h4 {
-  font-size: $h4-font-size * $mobile-heading-scale;
-  font-weight: $h4-line-height * $mobile-heading-scale;
-}
-
-h5, .h5 {
-  font-size: $h5-font-size * $mobile-heading-scale;
-  line-height: $h5-line-height * $mobile-heading-scale;
-}
-
-h6, .h6 {
-  font-size: $h6-font-size * $mobile-heading-scale;
-  font-family: $font-family-sans-serif-bold;
-  line-height: $h6-line-height * $mobile-heading-scale;
-}
-
-}
-
-
-
-
-@import "buttons";
 
 
 .sans-serif {
@@ -191,3 +186,26 @@ nav ul a.active {
 .position-relative {
   position: relative;
 }
+
+
+.lead {
+  line-height: 26px;
+  a {
+    font-weight: bold;
+  }
+}
+
+
+.btn {
+  line-height: 2;
+  padding-bottom: .25em;
+  &.uppercase {
+    text-transform: uppercase;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+

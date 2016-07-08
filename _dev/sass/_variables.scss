@@ -17,12 +17,14 @@ $purple: #3b3f80;
 $weekly-storytelling: rgb(216, 246, 239);
 $dark-blue: rgb(61,68,172);
 
+$mobile-heading-scale: .8;
+
 
 // BOOTSTRAP VARIABLES
 
 $body-color: $blue;
 
-$font-size-root: 16px;
+$font-size-root: 14px;
 
 $font-family-sans-serif:  "Sailec-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-family-sans-serif-bold:  "Sailec-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -72,3 +74,8 @@ $spacers: (
 $border-radius: 0;
 $border-radius-lg: 0;
 $border-radius-sm: 0;
+
+
+$lead-font-size:             18px;
+$lead-font-weight:           normal;
+

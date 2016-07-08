@@ -211,3 +211,10 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+#header,
+#mobile-nav {
+  a:hover {
+    text-decoration: none;
+  }
+}

@@ -235,3 +235,16 @@ img {
 p a {
   font-weight: bold;
 }
+
+
+.m-xs-b-1 {
+  @include media-breakpoint-up('xs'){
+    margin-bottom: 2rem;
+  }
+}
+
+.m-md-b-0 {
+  @include media-breakpoint-up('lg') {
+    margin-bottom: 0;
+  }
+}

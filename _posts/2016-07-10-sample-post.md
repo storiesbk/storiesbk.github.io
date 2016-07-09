@@ -1,7 +1,7 @@
 ---
 title: "First Event Post"
 author: First Author Name
-date: 2016-07-08 16:50:27 -0400
+date: 2016-07-10 16:50:27 -0400
 categories: weekly-storytelling
 permalink: sample-event-post
 event-link: http://facebook.com/eventlink/

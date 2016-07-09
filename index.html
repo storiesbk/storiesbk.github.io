@@ -47,43 +47,25 @@ slug: home
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-sm-3">
-			<div class="weekly-storytelling">
-				<div class="content">
-					<h2>10<span class="month-header m-l-1">July</span></h2>
-					<p>Lucy Ruth Cummins<br>presents &mdash;</p>
-					<h5 class="sm-top"><a href="http://www.publishersweekly.com/978-1-4814-4889-5" target="_blank">A Hungry Lion: Or a Dwindling Assortment of Animals</a></h5>
-				</div>
-			</div>
-		</div>
-		<div class="col-sm-3">
-			<div class="weekly-storytelling">
-				<div class="content">
-					<h2>17<span class="month-header m-l-1">July</span></h2>
-					<p>Lucy Ruth Cummins<br>presents &mdash;</p>
-					<h5 class="sm-top"><a href="http://www.publishersweekly.com/978-1-4814-4889-5" target="_blank">A Hungry Lion: Or a Dwindling Assortment of Animals</a></h5>
-				</div>
-			</div>
-		</div>
-		<div class="col-sm-3">
-			<div class="weekly-storytelling">
-				<div class="content">
-					<h2>28<span class="month-header m-l-1">July</span></h2>
-					<p>Lucy Ruth Cummins<br>presents &mdash;</p>
-					<h5 class="sm-top"><a href="http://www.publishersweekly.com/978-1-4814-4889-5" target="_blank">A Hungry Lion: Or a Dwindling Assortment of Animals</a></h5>
-				</div>
-			</div>
-		</div>
-		<div class="col-sm-3">
-			<div class="weekly-storytelling">
-				<div class="content">
-					<h2>02<span class="month-header m-l-1">August</span></h2>
-					<p>Lucy Ruth Cummins<br>presents &mdash;</p>
-					<h5 class="sm-top"><a href="http://www.publishersweekly.com/978-1-4814-4889-5" target="_blank">A Hungry Lion: Or a Dwindling Assortment of Animals</a></h5>
-				</div>
-			</div>
-		</div>
-
+		{% assign eventPost = site.categories.weekly-storytelling | sort: 'date' %}
+		{% assign eventsNumber = 4 %}
+		{% assign printedEvents = 0 %}
+		{% for post in eventPost %}
+		    {% assign curDate = site.time | date: '%Y-%m-%d' %}
+		    {% assign postStartDate = post.date | date: '%Y-%m-%d' %}
+		    {% if (postStartDate >= curDate) and (printedEvents < eventsNumber) %}
+		        {% assign printedEvents = printedEvents | plus: 1 %}
+						<div class="col-sm-3">
+							<div class="weekly-storytelling">
+								<div class="content">
+											<h2>{{ post.date | date: '%d' }}<span class="month-header m-l-1">{{ post.date | date: '%b' }}</span></h2>
+											{{ post.author }} <br/>presents &mdash;
+											<h5><a href="{{ post.event-link }}" target="_blank">{{ post.title }}</a></h5>
+								</div>
+							</div>
+						</div>
+					{% endif %}
+				{% endfor %}
 	</div>
 	<div class="row">
 		<div class="col-xs-12 p-t-3">

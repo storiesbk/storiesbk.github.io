@@ -248,3 +248,12 @@ p a {
     margin-bottom: 0;
   }
 }
+
+#footer {
+  address {
+    margin: 0;
+  }
+  a {
+    border-bottom: 1px solid $blue;
+  }
+}

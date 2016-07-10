@@ -51,21 +51,21 @@ slug: home
 		{% assign eventsNumber = 4 %}
 		{% assign printedEvents = 0 %}
 		{% for post in eventPost %}
-		    {% assign curDate = site.time | date: '%Y-%m-%d' %}
-		    {% assign postStartDate = post.date | date: '%Y-%m-%d' %}
-		    {% if (postStartDate >= curDate) and (printedEvents < eventsNumber) %}
-		        {% assign printedEvents = printedEvents | plus: 1 %}
-						<div class="col-xs-6 col-lg-3 m-xs-b-1 m-lg-b-0">
-							<div class="weekly-storytelling">
-								<div class="content">
-									<h2>{{ post.date | date: '%d' }}<span class="month-header m-l-1">{{ post.date | date: '%b' }}</span></h2>
-									{{ post.author }} <br/>presents &mdash;
-									<h5><a href="{{ post.event-link }}" target="_blank">{{ post.title }}</a></h5>
-								</div>
-							</div>
+			{% assign curDate = site.time | date: '%Y-%m-%d' %}
+			{% assign postStartDate = post.date | date: '%Y-%m-%d' %}
+			{% if (postStartDate >= curDate) and (printedEvents < eventsNumber) %}
+				{% assign printedEvents = printedEvents | plus: 1 %}
+				<div class="col-xs-6 col-lg-3 m-xs-b-1 m-lg-b-0">
+					<div class="weekly-storytelling">
+						<div class="content">
+							<h2>{{ post.date | date: '%d' }}<span class="month-header m-l-1">{{ post.date | date: '%b' }}</span></h2>
+							{{ post.author }} <br/>presents &mdash;
+							<h5><a href="{{ post.event-link }}" target="_blank">{{ post.title }}</a></h5>
 						</div>
-					{% endif %}
-				{% endfor %}
+					</div>
+				</div>
+			{% endif %}
+		{% endfor %}
 	</div>
 	<div class="row">
 		<div class="col-xs-12 p-t-3">

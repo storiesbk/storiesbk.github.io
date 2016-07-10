@@ -51,7 +51,7 @@ body.home #header nav {
 }
 
 .top-section {
-  height: 75vh;
+  height: 85vh;
   display: flex;
   align-items: center;
   .container {
@@ -60,7 +60,7 @@ body.home #header nav {
 }
 
 h1.statement {
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
 }
 
 #visit-image {
@@ -94,13 +94,26 @@ h1.statement {
   }
 }
 
+
+@keyframes mobile-animation {
+  0% {
+  top:  calc(50% - 150px);
+  }
+  50% {
+    top:  calc(50% - 140px);
+  }
+  100% {
+    top:  calc(50% - 150px);
+  }
+}
+
 .cloud {
   position: absolute;
   z-index: 0;
 }
 
 #cloud1 {
-  top: calc(50% + 120px);
+  top: calc(50% + 150px);
   left: calc(50% - 145px);
 }
 
@@ -117,7 +130,12 @@ h1.statement {
 
 #person {
   position: absolute;
-  top: calc(50% - 200px);
+  top: calc(50% - 190px);
   left: calc(50% + 24vw);
+  width: 230px;
   animation: slidein 120s linear infinite;
+  @media screen and (max-width: 768px) {
+    width: 200px;
+    animation: mobile-animation 5s ease infinite;
+  }
 }

@@ -180,8 +180,25 @@ nav ul a.active {
   .content {
     padding: 1.5rem;
   }
+  h5 a{
+    font-family: $font-family-serif-light;
+    font-weight: normal;
+    margin-top:0.5rem;
+    display: inline-block;
+    &:hover{
+      border-bottom: 1px solid;
+    }
+    @media screen and (max-width: 768px) {
+      font-size: $h5-font-size;
+    }
+  }
+  h2 {
+    margin-left: -0.25rem;
+    @media screen and (max-width: 768px) {
+      font-size: $h2-font-size;
+    }
+  }
 }
-
 
 .position-relative {
   position: relative;
@@ -192,7 +209,7 @@ nav ul a.active {
   line-height: 28px;
   letter-spacing: 0.01rem;
   a {
-    font-weight: bold;
+    font-family: 'Sailec-Bold';
     border-bottom: 2px solid;
     &:hover {
       text-decoration: none;
@@ -235,14 +252,27 @@ img {
   }
 }
 
-p a {
-  font-weight: bold;
+a {
+  font-family: 'Sailec-Bold';
+  font-weight: normal;
+  &:hover {
+    text-decoration: none;
+  }
 }
 
+#footer a.social-button {
+    border-bottom: none;
+}
 
 .m-xs-b-1 {
   @include media-breakpoint-up('xs'){
     margin-bottom: 2rem;
+  }
+}
+
+.m-xs-b-3 {
+  @include media-breakpoint-up('xs'){
+    margin-bottom: 4rem;
   }
 }
 
@@ -257,9 +287,14 @@ p a {
     margin: 0;
   }
   a {
-    border-bottom: 1px solid $blue;
+    border-bottom: 2px solid $blue;
   }
 }
+
+strong {
+    font-family: 'Sailec-Bold';
+    font-weight: normal;
+  }
 
 .btn-bold {
   text-transform: uppercase;
@@ -270,8 +305,12 @@ p a {
 
 .btn {
   font-family: 'Sailec-Bold';
-  line-height: .9;
-  padding: $spacer-x ;
+  line-height: .95;
+  padding: 1.25rem 1rem 1rem 1rem;
+}
+
+.btn-md {
+  font-size: 18px;
 }
 
 .btn-lg {
@@ -282,6 +321,7 @@ p a {
   line-height: 2;
   font-family: 'Sailec-Bold';
   padding-top: $spacer-x /2;
+  font-size: 18px;
 }
 
 @include media-breakpoint-up('lg') {

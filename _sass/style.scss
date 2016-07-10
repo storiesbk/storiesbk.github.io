@@ -180,11 +180,16 @@ nav ul a.active {
   .content {
     padding: 1.5rem;
   }
+  .content {
+    p {
+      padding-bottom: 0rem;
+    }
+  }
   h5 a{
     font-family: $font-family-serif-light;
     font-weight: normal;
     margin-top:0.5rem;
-    display: inline-block;
+    display: inline;
     &:hover{
       border-bottom: 1px solid;
     }

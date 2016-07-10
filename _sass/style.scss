@@ -280,3 +280,12 @@ p a {
   font-family: 'Sailec-Bold';
   padding-top: $spacer-x /2;
 }
+
+@include media-breakpoint-up('lg') {
+  input.form-control {
+    min-width: 320px;
+  }
+  #footer input.form-control {
+    min-width: 100px;
+  }
+}

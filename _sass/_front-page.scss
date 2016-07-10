@@ -27,7 +27,7 @@ body.home .top-section {
   display: flex;
   align-items: stretch;
   & > div > div {
-    max-width: 600px;
+    max-width: calc((1140px / 2) - 7rem);
   }
   & > div:first-of-type {
     text-align: right;

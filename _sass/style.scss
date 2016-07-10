@@ -213,8 +213,8 @@ nav ul a.active {
 
 
 .btn {
-  line-height: 2;
-  padding-bottom: .25em;
+  // line-height: 2;
+  // padding-bottom: .25em;
   &.uppercase {
     text-transform: uppercase;
   }
@@ -256,4 +256,27 @@ p a {
   a {
     border-bottom: 1px solid $blue;
   }
+}
+
+.btn-bold {
+  text-transform: uppercase;
+  font-family: 'Sailec-Bold';
+  letter-spacing: .2em;
+  line-height: .9;
+}
+
+.btn {
+  font-family: 'Sailec-Bold';
+  line-height: .9;
+  padding: $spacer-x ;
+}
+
+.btn-lg {
+  padding: $spacer-x * 1.5;
+}
+
+.form-control {
+  line-height: 2;
+  font-family: 'Sailec-Bold';
+  padding-top: $spacer-x /2;
 }

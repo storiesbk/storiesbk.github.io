@@ -36,8 +36,6 @@
     }
   }
 
-
-
   ul:first-of-type {
     li {
       margin-right: $spacer-x * 2;
@@ -166,11 +164,10 @@ button.close-button {
     width: 100%;
   }
 
-
   a {
     display: block;
-    // height: 50px;
   }
+
   a.stories-logo {
     background-image: url('../img/storieslogo.png');
     // height: 50px;
@@ -280,4 +277,12 @@ button.close-button {
 body:not(.home) #header,
 #mobile-nav {
   border-bottom: 1px solid rgb(221, 230, 254);
+}
+
+
+a.stories-logo {
+  &:hover,
+  &:active {
+    opacity: .8;
+  }
 }

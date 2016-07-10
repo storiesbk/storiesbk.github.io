@@ -227,8 +227,11 @@ img {
 
 #header,
 #mobile-nav {
-  a:hover {
-    text-decoration: none;
+  a:not(.stories-logo):hover,
+  a:not(.stories-logo):focus {
+      opacity: .8;
+      border-bottom: 2px solid $blue;
+      text-decoration: none;
   }
 }
 

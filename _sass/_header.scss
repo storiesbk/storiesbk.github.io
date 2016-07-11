@@ -1,5 +1,14 @@
 #header {
   z-index: 1000;
+
+  body:not(.home) & {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+  }
+
   nav {
     margin: 0 auto;
     max-width: 1140px;
@@ -224,6 +233,10 @@ button.close-button {
 
 }
 
+body:not(.home) #mobile-nav {
+  display: none;
+}
+
 
 
 #mobile-fullscreen-menu {
@@ -285,4 +298,9 @@ a.stories-logo {
   &:active {
     opacity: .8;
   }
+}
+
+
+body:not(.home) {
+  padding-top: 50px;
 }

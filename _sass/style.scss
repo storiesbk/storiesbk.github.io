@@ -254,6 +254,7 @@ img {
       opacity: .8;
       border-bottom: 2px solid $blue;
       text-decoration: none;
+      line-height: 1.25;
   }
 }
 
@@ -276,7 +277,7 @@ a {
 }
 
 .m-xs-b-3 {
-  @include media-breakpoint-up('xs'){
+  @media screen and (max-width: 768px) {
     margin-bottom: 4rem;
   }
 }

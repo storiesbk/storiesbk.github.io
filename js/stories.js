@@ -18,6 +18,7 @@
     $('.menu-button').click(function(e){
       e.preventDefault();
       $('#mobile-fullscreen-menu').addClass('visible')
+      $('body').toggleClass('mobile-nav-visible')
     })
 
 
@@ -25,6 +26,7 @@
     $('.close-button').click(function(e){
       e.preventDefault();
       $('#mobile-fullscreen-menu').removeClass('visible');
+      $('body').removeClass('mobile-nav-visible')
     })
 
 
@@ -32,6 +34,7 @@
     // contact link (if the menu is open)
     $('a[href="#contact"]').click(function(e){
       $('#mobile-fullscreen-menu').removeClass('visible')
+      $('body').removeClass('mobile-nav-visible')
     })
 
     // Hide menu if the user resizes the menu into desktop
@@ -39,6 +42,7 @@
     $(window).resize(function(e){
       if( $('#mobile-fullscreen-menu').hasClass('visible') ) {
         $('#mobile-fullscreen-menu').removeClass('visible');
+        $('body').removeClass('mobile-nav-visible')
       }
     })
 

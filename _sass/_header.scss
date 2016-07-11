@@ -103,11 +103,13 @@ button.menu-button {
   position: absolute;
   left: 1rem;
   right: 0;
-  top: 50%;
-  margin-top: -1.5rem;
+  top: 25px;
+  margin-top: -13px;
   display: none;
-  height: 3rem;
-  width: 2.5rem;
+  height: 25px;
+  z-index: 10000; 
+  width: 25px;
+  // overflow: hidden;
   outline: none;
   span {
     display: block;
@@ -115,8 +117,33 @@ button.menu-button {
     height: 2px;
     border-radius: 1px;
     margin: .3rem 0;
+    // width: 35px;
     width: 100%;
+    transition: all 200ms;
+    transform: rotate(0deg);
   }
+  span:nth-of-type(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    transform-origin: center center;
+  }
+  span:nth-of-type(2) {
+    position: absolute;
+    top: 50%;
+    margin-top: -1px;
+    left: 0;
+    right: 0;
+  }
+  span:nth-of-type(3) {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform-origin: center center;
+  }
+  
   @media screen and (max-width: 768px) {
     display: block;
   }
@@ -270,7 +297,7 @@ body:not(.home) #mobile-nav {
       border-bottom: none;
       background-position: center center;
     }
-  &.visible {
+  body.home &.visible {
     visibility: visible;
     opacity: 1;
     display: block;
@@ -303,4 +330,59 @@ a.stories-logo {
 
 body:not(.home) {
   padding-top: 50px;
+}
+
+body.mobile-nav-visible button.menu-button {
+  span:nth-of-type(1) {
+    transform: rotate(45deg);
+    top: calc(25% + 1px);
+  }
+  span:nth-of-type(2) {
+    left: 50%;
+    width: 0;
+    right: 50%;
+  }
+  span:nth-of-type(3) {
+    bottom: calc(25% + 1px);
+    transform: rotate(-45deg);
+  }
+}
+
+body:not(.home).mobile-nav-visible #header {
+  height: 100vh;
+  nav {
+    position: static;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    ul {
+      display: block;
+      width: 100%;
+      margin: 0;
+      flex-basis: 100%;
+      li {
+        width: 100%;
+        text-align: center;
+        display: block;
+        padding: 1rem;
+        margin:0;
+      }
+      order: 2;
+    }
+
+    ul:first-of-type {
+      padding-top: 1rem;
+    }
+
+    ul:first-of-type,
+    ul:last-of-type {
+      margin: 0;
+    }
+
+    & > a {
+      width: 100%;
+      flex-basis: 100%;
+      order: 1;
+    }
+  }
 }

@@ -1,26 +1,15 @@
-body.home #header {
-  background: transparent;
-}
 .top-section {
-  background: $light-orange;
   background: #ffddc6;
-}
-
-body.home #header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right:0;
-}
-
-body.home .top-section {
-  padding-top: 150px;
-}
-
-.top-section {
   overflow: hidden;
   max-width: 100%;
   position: relative;
+  padding-top: 150px;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  @media screen and (max-width: 768px) {
+    padding-top: 0;
+  }
 }
 
 .flex-full-height {
@@ -46,19 +35,6 @@ body.home .top-section {
   }
 }
 
-body.home #header nav {
-  z-index: 1000;
-}
-
-.top-section {
-  height: 85vh;
-  display: flex;
-  align-items: center;
-  .container {
-    // z-index: 1000;
-  }
-}
-
 h1.statement {
   padding-bottom: 3rem;
 }
@@ -70,7 +46,6 @@ h1.statement {
   min-height: 500px;
   display: block;
 }
-
 
 @keyframes slidein {
   0% {

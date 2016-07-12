@@ -247,17 +247,6 @@ img {
   height: auto;
 }
 
-#header,
-#mobile-nav {
-  a:not(.stories-logo):hover,
-  a:not(.stories-logo):focus {
-      opacity: .8;
-      border-bottom: 2px solid $blue;
-      text-decoration: none;
-      line-height: 1.25;
-  }
-}
-
 a {
   font-family: 'Sailec-Bold';
   font-weight: normal;

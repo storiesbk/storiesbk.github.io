@@ -235,8 +235,6 @@ nav ul a.active {
 
 
 .btn {
-  // line-height: 2;
-  // padding-bottom: .25em;
   &.uppercase {
     text-transform: uppercase;
   }
@@ -255,8 +253,12 @@ a {
   }
 }
 
+a.underline {
+  border-bottom: 2px solid #5682fb
+}
+
 #footer a.social-button {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 .m-xs-b-1 {

@@ -280,6 +280,7 @@ a {
 #footer {
   address {
     margin: 0;
+    font-weight: normal;
   }
   a {
     border-bottom: 2px solid $blue;
@@ -326,4 +327,11 @@ strong {
   #footer input.form-control {
     min-width: 100px;
   }
+}
+
+
+#footer a[href^="tel"] {
+  border-bottom: none;
+  font-weight: normal;
+  font-family: $font-family-sans-serif;
 }

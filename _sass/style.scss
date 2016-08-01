@@ -173,6 +173,21 @@ nav ul a.active {
   }
 }
 
+h5.lead-in{
+  a{
+    font-family: $font-family-serif;
+    font-weight: normal;
+    margin-top:0.5rem;
+    display: inline;
+    &:hover{
+      border-bottom: 1px solid;
+    }
+    @media screen and (max-width: 768px) {
+      font-size: $h5-font-size;
+    }
+  }
+}
+
 .weekly-storytelling {
   background: $weekly-storytelling;
   padding: 1rem;

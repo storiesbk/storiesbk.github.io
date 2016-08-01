@@ -42,7 +42,7 @@ slug: home
 <div class="container color-dark-blue p-y-6">
 	<div class="row">
 		<div class="col-xs-12">
-			<h2>Our Weekly Storytime</h2>
+			<h2>Our Weekly Events</h2>
 			<p class="lead">Storytelling events are FREE for all ages every Sunday at 10:30 am.</p>
 		</div>
 	</div>
@@ -53,7 +53,7 @@ slug: home
 		{% for post in eventPost %}
 			{% assign curDate = site.time | date: '%Y-%m-%d' %}
 			{% assign postStartDate = post.date | date: '%Y-%m-%d' %}
-			{% if (postStartDate >= curDate) and (printedEvents < eventsNumber) %}
+			{% if postStartDate >= curDate and printedEvents < eventsNumber %}
 				{% assign printedEvents = printedEvents | plus: 1 %}
 				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 m-xs-b-1 m-lg-b-0">
 					<div class="weekly-storytelling">

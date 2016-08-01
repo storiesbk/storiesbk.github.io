@@ -53,7 +53,7 @@ slug: home
 		{% for post in eventPost %}
 			{% assign curDate = site.time | date: '%Y-%m-%d' %}
 			{% assign postStartDate = post.date | date: '%Y-%m-%d' %}
-			{% if postStartDate >= curDate and printedEvents < eventsNumber %}
+			{% if (postStartDate >= curDate) and (printedEvents < eventsNumber) %}
 				{% assign printedEvents = printedEvents | plus: 1 %}
 				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 m-xs-b-1 m-lg-b-0">
 					<div class="weekly-storytelling">

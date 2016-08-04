@@ -7,7 +7,7 @@ slug: home
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-10 col-sm-offset-1">
-				<h1 class="statement text-xs-center">Stories is a Brooklyn bookshop and storytelling lab for kids.</h1>
+				<h1 class="statement text-xs-center">Stories is a children's bookshop and storytelling lab for kids, in Brooklyn.</h1>
 			</div>
 		</div>
 	</div>
@@ -31,7 +31,7 @@ slug: home
 	<div class="col-sm-12 col-md-6 p-a-6 m-xs-b-3 color-blue bg-light-blue">
 		<div>
 			<h2>Storytelling Lab</h2>
-			<p class="lead">A home for storytellers ages 5-13, our lab will host a range of programming from 12-week workshops on the art of the short story to bookmaking classes for younger writers and drop-in sessions where you can bring your latest project for feedback or play a clever assortment of writing games. All taught and facilitated by real life working writers.
+			<p class="lead">A home for storytellers of all ages, our lab will host a range of programming. From 12-week workshops on the art of the short story to bookmaking classes for younger writers and drop-in sessions where you can bring your latest project for feedback or play a clever assortment of writing games. All taught and facilitated by real life working writers and artists.
 			<br/><br/><a href="storytelling-lab" class="more-link">Read More</a>
 		</p>
 
@@ -42,12 +42,12 @@ slug: home
 <div class="container color-dark-blue p-y-6">
 	<div class="row">
 		<div class="col-xs-12">
-			<h2>Our Weekly Events</h2>
-			<p class="lead">Storytelling events are FREE for all ages every Sunday at 10:30 am.</p>
+			<h2>Upcoming Events</h2>
+			<p class="lead">Check out what we've got going on in the Storytelling Lab.</p>
 		</div>
 	</div>
 	<div class="row">
-		{% assign eventPost = site.categories.weekly-storytelling | sort: 'date' %}
+		{% assign eventPost = site.categories.events | sort: 'date' %}
 		{% assign eventsNumber = 4 %}
 		{% assign printedEvents = 0 %}
 		{% for post in eventPost %}

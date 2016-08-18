@@ -9,4 +9,4 @@ permalink: heidi-staff-picks
 section: Picture Books, Bedtime
 event-link: https://storiesbk.com
 ---
-I love this book for it’s celebration of individuality. McKee’s playful language paired with his bright illustrations has made this book a bedtime favorite for over 25 years.
+Alexander McCall Smith’s mystery series for early readers stars Precious Ramotswe as a young, intrepid little girl living in Botswana dreaming of one day becoming a detective. Her first case involves a missing piece a cake &mdash; irresistible!

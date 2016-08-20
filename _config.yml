@@ -3,3 +3,4 @@ description: "Bookshop & Storytelling Lab"
 baseurl: ""
 url: "http://storiesbk.com/"
 future: true
+timezone: America/New_York

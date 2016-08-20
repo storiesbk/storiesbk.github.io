@@ -240,7 +240,7 @@ h5.lead-in{
 }
 
 .month-header {
-  font-family: $font-family-sans-serif-bold;
+  font-family: $font-family-sans-serif;
   text-transform: uppercase;
   border-bottom: 2px solid;
   font-size: 18px;
@@ -250,6 +250,15 @@ h5.lead-in{
   line-height: 1;
 }
 
+.time-header {
+  font-family: $font-family-sans-serif;
+  border-bottom: 2px;
+  font-size: 18px;
+  letter-spacing: 0.15rem;
+  vertical-align: middle;
+  display: inline-block;
+  line-height: 1;
+}
 
 .btn {
   &.uppercase {

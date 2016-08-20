@@ -7,7 +7,7 @@ slug: home
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-10 col-sm-offset-1">
-				<h1 class="statement text-xs-center">Stories is a children's bookshop and storytelling lab for kids, in Brooklyn.</h1>
+				<h1 class="statement text-xs-center">Stories is a children's bookshop and storytelling lab in Brooklyn.</h1>
 			</div>
 		</div>
 	</div>
@@ -58,9 +58,10 @@ slug: home
 				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 m-xs-b-1 m-lg-b-0">
 					<div class="weekly-storytelling">
 						<div class="content">
-							<h2>{{ post.date | date: '%d' }}<span class="month-header m-l-1">{{ post.date | date: '%b' }}</span></h2>
-							<p>{{ post.author }} <br/>presents &mdash;</p>
-							<h5><a href="{{ post.event-link }}" target="_blank">{{ post.title }}</a></h5>
+							<h4>{{ post.date | date: '%a %d' }}<span class="month-header m-l-1">{{ post.date | date: '%b' }}</span></h4>
+							<span class="time-header" "m-l-1">{{ post.date | date: '%I:%M %p' }}</span>
+							<p class="lead">{{ post.author }} presents &mdash;</p>
+							<h5><i><a href="{{ post.event-link }}" target="_blank">{{ post.title }}</a></i></h5>
 						</div>
 					</div>
 				</div>
@@ -69,7 +70,7 @@ slug: home
 	</div>
 	<div class="row">
 		<div class="col-xs-12 p-t-1">
-			<a class="btn btn-bold btn-primary-outline" href="http://facebook.com/storiesbk/events" target="_blank">See More Events</a>
+			<a class="btn btn-bold btn-primary-outline" href="{{ site.github.url }}/bookshop/#Events" target="_blank">See More Events</a>
 		</div>
 	</div>
 </div>

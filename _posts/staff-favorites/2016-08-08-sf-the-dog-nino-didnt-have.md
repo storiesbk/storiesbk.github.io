@@ -3,7 +3,7 @@ book-title: "The Dog that Nino Didn’t Have"
 book-author: Edward van de Vendel
 book-image: dog-nino.png
 staff: Mike
-date: 2016-08-08 10:30:27 -0400
+date: 2016-07-05 10:30:27 -0400
 categories: staff-favorites
 permalink: mike-staff-picks
 event-link: https://storiesbk.com

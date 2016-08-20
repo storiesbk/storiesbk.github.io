@@ -3,7 +3,7 @@ book-title: Amelia's Notebook (series)
 book-author: Marissa Moss
 book-image: amelias-notebook.png
 staff: Olivia
-date: 2016-08-04 10:30:27 -0400
+date: 2016-08-09 10:30:27 -0400
 categories: staff-favorites
 permalink: olivia-staff-picks
 event-link: https://storiesbk.com

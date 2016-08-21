@@ -32,9 +32,8 @@ slug: home
 		<div>
 			<h2>Storytelling Lab</h2>
 			<p class="lead">A home for storytellers of all ages, our lab will host a range of programming. From workshops on the art of the short story to bookmaking classes for younger writers and drop-in art and storytelling sessions. All taught and facilitated by real life working writers and artists.
-			<br/><br/><a href="storytelling-lab" class="more-link">Read More</a>
-		</p>
-
+			<br><br><a href="storytelling-lab" class="more-link">Read More</a>
+			</p>
 		</div>
 	</div>
 </div>
@@ -60,7 +59,8 @@ slug: home
 						<div class="content">
 							<h4>{{ post.date | date: '%a %d' }}<span class="month-header m-l-1">{{ post.date | date: '%b' }}</span></h4>
 							<span class="time-header" "m-l-1">{{ post.date | date: '%I:%M %p' }}</span>
-							<p class="lead">{{ post.author }} presents &mdash;</p>
+							<br><br>
+							<h5>{{ post.author }} presents &mdash;</h5>
 							<h5><i><a href="{{ post.event-link }}" target="_blank">{{ post.title }}</a></i></h5>
 						</div>
 					</div>
@@ -70,7 +70,17 @@ slug: home
 	</div>
 	<div class="row">
 		<div class="col-xs-12 p-t-1">
-			<a class="btn btn-bold btn-primary-outline" href="{{ site.github.url }}/bookshop/#Events" target="_blank">See More Events</a>
+			<a class="btn btn-bold btn-primary-outline" href="{{ site.github.url }}/bookshop/#Events">See More Events</a>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid bg-light-yellow color-orange p-y-6">
+	<div class="row">
+		<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3 text-xs-center">
+			<img height="206" src="{{ site.github.url }}/img/muscle_2.gif" alt="" aria-hidden="true" width="261">
+			<h2 class="m-t-3">We believe stories</br>can change the world.</h2>
+			<p class="lead">Stories ignite a child’s limitless imagination, innate curiosity, and passion for learning. You can sense it intuitively when you read a great story with your kid, or think back to that feeling of being read to when you were small. We believe growing up in a world of books can make all the difference, and that storytelling is a vital art, one that in our digitally-saturated age, deserves and demands preservation.</p>
 		</div>
 	</div>
 </div>
@@ -93,16 +103,6 @@ slug: home
 				<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_f23f7dc7a9e1b9c9d88b9d5fa_ca64a2e27c" tabindex="-1" value=""></div>
 				<input type="submit" value="Subscribe" name="subscribe" class="btn btn-md btn-primary-outline">
 			</form>
-		</div>
-	</div>
-</div>
-
-<div class="container-fluid bg-light-yellow color-orange p-y-6">
-	<div class="row">
-		<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3 text-xs-center">
-			<img height="206" src="{{ site.github.url }}/img/muscle_2.gif" alt="" aria-hidden="true" width="261">
-			<h2 class="m-t-3">We believe stories</br>can change the world.</h2>
-			<p class="lead">Stories ignite a child’s limitless imagination, innate curiosity, and passion for learning. You can sense it intuitively when you read a great story with your kid, or think back to that feeling of being read to when you were small. We believe growing up in a world of books can make all the difference, and that storytelling is a vital art, one that in our digitally-saturated age, deserves and demands preservation.</p>
 		</div>
 	</div>
 </div>

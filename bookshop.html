@@ -15,8 +15,8 @@ slug: bookshop
 	</div>
 	<div class="row">
 		<div class="col-xs-12 col-md-9 p-t-2">
-			<h5 class="lead-in">Board books and picture books, chapter books and reference books, biographies, myths, folktales, poetry, and more &mdash; we carry a beautiful collection of children&rsquo;s literature for age zero through young adult. We have a section for parents, too, as well as rare, out-of-print, and vintage finds. And, also, the perfect pencils, notebooks, art supplies, and other tools most necessary for all budding storytellers./h5>
-			<br><br>
+			<h5 class="lead-in">Board books and picture books, chapter books and reference books, biographies, myths, folktales, poetry, and more &mdash; we carry a beautiful collection of children&rsquo;s literature for age zero through young adult. We have a section for parents, too, as well as rare, out-of-print, and vintage finds. And, also, the perfect pencils, notebooks, art supplies, and other tools most necessary for all budding storytellers.</h5>
+			<br>
 			<h5 class="lead-in"><a href="http://store.storiesbk.com" target="_blank">Visit our online shop &raquo;</a></h5>
 		</div>
 		<div class="col-xs-12 col-md-offset-1 col-md-2">
@@ -56,7 +56,8 @@ slug: bookshop
 						<div class="content">
 							<h4>{{ post.date | date: '%a %d' }}<span class="month-header m-l-1">{{ post.date | date: '%b' }}</span></h4>
 							<span class="time-header" "m-l-1">{{ post.date | date: '%I:%M %p' }}</span>
-							<p class="lead">{{ post.author }} presents &mdash;</p>
+							<br><br>
+							<h5>{{ post.author }} presents &mdash;</h5>
 							<h5><i><a href="{{ post.event-link }}" target="_blank">{{ post.title }}</a></i></h5>
 						</div>
 					</div>
@@ -94,8 +95,6 @@ slug: bookshop
 		{% endfor %}
 	</div>
 </div>
-
-
 
 <div class="container-fluid bg-light-light-orange color-orange p-y-6 text-xs-center">
 	<div class="row">

@@ -109,9 +109,9 @@ h6, .h6 {
   line-height: $h6-line-height;
 }
 
-//[class*="col-"]:not(:last-child) {
-//  margin-bottom: 25px;
-//}
+[class*="col-"]:not(:last-child) {
+  margin-bottom: 25px;
+}
 
 
 @media screen and (max-width: 768px) {

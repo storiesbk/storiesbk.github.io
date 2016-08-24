@@ -57,11 +57,13 @@ slug: home
 				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 m-xs-b-1 m-lg-b-0">
 					<div class="weekly-storytelling">
 						<div class="content">
-							<h4>{{ post.date | date: '%a %d' }}<span class="month-header m-l-1">{{ post.date | date: '%b' }}</span></h4>
-							<span class="time-header" "m-l-1">{{ post.date | date: '%I:%M %p' }}</span>
-							<br><br>
-							<h5>{{ post.author }} presents &mdash;</h5>
-							<h5><i><a href="{{ post.event-link }}" target="_blank">{{ post.title }}</a></i></h5>
+							<a href="{{ post.event-link }}" target="_blank">
+								<h4>{{ post.date | date: '%a %d' }}<span class="month-header m-l-1">{{ post.date | date: '%b' }}</span></h4>
+								<span class="time-header" "m-l-1">{{ post.date | date: '%I:%M %p' }}</span>
+								<br><br>
+								<h5>{{ post.author }} presents &mdash;</h5>
+								<h5><i>{{ post.title }}</i></h5>
+							</a>
 						</div>
 					</div>
 				</div>

@@ -4,3 +4,5 @@ baseurl: ""
 url: "http://storiesbk.com/"
 future: true
 timezone: America/New_York
+gems:
+  - jekyll-sitemap

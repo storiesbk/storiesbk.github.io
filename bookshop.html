@@ -86,7 +86,7 @@ slug: bookshop
 	<div class="row">
 		{% assign staffFavoritePosts = site.categories.staff-favorites | sort: 'date' | reverse %}
 		{% for post in staffFavoritePosts limit:9 %}
-			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 m-b-6">
 						<img src="{{ site.github.url }}/img/favorite-books/{{ post.book-image }}" />
 						<h4 class="m-t-2"><i>{{ post.book-title }}</i> by {{ post.book-author }}</h4>
 						<p>Section:&nbsp;{{ post.section }}</p>

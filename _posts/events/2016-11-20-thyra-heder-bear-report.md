@@ -1,5 +1,5 @@
 ---
-title: Bear Report
+title: The Bear Report
 author: Thyra Heder
 date: '2016-11-20 10:30:00 -0500'
 categories: events storytimes

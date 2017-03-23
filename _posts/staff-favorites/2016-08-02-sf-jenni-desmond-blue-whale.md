@@ -8,5 +8,6 @@ categories: staff-favorites
 section: Picture Books, Non-fiction
 permalink: heidi-staff-picks
 event-link: https://storiesbk.com
+published: false
 ---
 The Blue Whale is a stunning example of just how good children’s non-fiction is nowadays. Desmond has created an engaging picture book filled with absorbing facts that make each page feel like a new adventure.

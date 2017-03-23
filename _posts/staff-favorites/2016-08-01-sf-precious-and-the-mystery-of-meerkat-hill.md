@@ -8,5 +8,6 @@ categories: staff-favorites
 permalink: heidi-staff-picks
 section: Picture Books, Bedtime
 event-link: https://storiesbk.com
+published: false
 ---
 Alexander McCall Smith’s mystery series for early readers stars Precious Ramotswe as a young, intrepid little girl living in Botswana dreaming of one day becoming a detective. Her first case involves a missing piece a cake &mdash; irresistible!

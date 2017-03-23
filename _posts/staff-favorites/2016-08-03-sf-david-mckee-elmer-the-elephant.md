@@ -9,5 +9,6 @@ permalink: heidi-staff-picks
 section: Picture Books
 event-link: https://www.storiesbk.com
 published: true
+published: false
 ---
 I love this book for it’s celebration of individuality. McKee’s playful language paired with his bright illustrations has made this book a bedtime favorite for over 25 years.

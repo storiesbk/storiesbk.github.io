@@ -1,10 +1,10 @@
 ---
-title: The Gold Leaf
-author: Kirsten Hall
-date: '2017-04-29 10:30:00'
+title: Curious Jane
+author: Curious Jane
+date: '2017-04-29 13:00:00'
 categories: events storytimes
-permalink: kirsten-hall
+permalink: curious-jane
 event-link: 'https://twitter.com/HallWaysKirsten?lang=en'
 published: true
 ---
-{{ page.author }} presents - *{{ page.title }}*
+{{ page.author }} Book Launch!

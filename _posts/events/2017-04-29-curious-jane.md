@@ -7,4 +7,4 @@ permalink: curious-jane
 event-link: 'https://www.sterlingpublishing.com/9781454922353/?category='
 published: true
 ---
-{{ page.author }} Book Launch!
+{{ page.author }} Book Party and Workshop!

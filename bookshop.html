@@ -37,13 +37,13 @@ slug: bookshop
 <div class="container color-dark-blue p-y-6">
 	<div class="row">
 		<div class="col-xs-12">
-			<h2 id="Events">Author Events</h2>
-			<p class="lead">Coming up in the Storytelling Lab; we're so excited to welcome these authors and artists!</p>
+			<h2 id="Events">Events</h2>
+			<p class="lead">Coming up in the Storytelling Lab, we're so excited for these events!</p>
 		</div>
 	</div>
 	<div class="row">
 		{% assign eventPost = site.categories.events | sort: 'date' %}
-		{% assign eventsNumber = 8 %}
+		{% assign eventsNumber = 12 %}
 		{% assign printedEvents = 0 %}
 		{% for post in eventPost %}
 			{% assign curDate = site.time | date: '%Y-%m-%d' %}

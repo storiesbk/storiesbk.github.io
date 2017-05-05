@@ -6,4 +6,4 @@ categories: events storytimes
 permalink: tom-booth-mike-lowery
 event-link: ''
 ---
-{{ page.title }} with masters: {{ page.author }}
+{{ page.title }} from the Masters: {{ page.author }}

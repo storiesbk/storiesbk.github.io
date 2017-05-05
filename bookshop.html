@@ -43,7 +43,7 @@ slug: bookshop
 	</div>
 	<div class="row">
 		{% assign eventPost = site.categories.events | sort: 'date' %}
-		{% assign eventsNumber = 12 %}
+		{% assign eventsNumber = 16 %}
 		{% assign printedEvents = 0 %}
 		{% for post in eventPost %}
 			{% assign curDate = site.time | date: '%Y-%m-%d' %}

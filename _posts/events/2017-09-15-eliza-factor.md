@@ -7,4 +7,4 @@ permalink: eliza-factor
 event-link: 'https://www.facebook.com/events/113526426008417/'
 published: true
 ---
-Stories After Bedtime \| {{ page.author }} presents - *{{ page.title }}*
+Stories After Bedtime: {{ page.author }} presents - *{{ page.title }}*

@@ -261,6 +261,7 @@ h5.lead-in{
 }
 
 .btn {
+  z-index: 2000;
   &.uppercase {
     text-transform: uppercase;
   }

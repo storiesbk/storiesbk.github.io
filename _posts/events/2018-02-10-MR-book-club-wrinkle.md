@@ -7,4 +7,4 @@ permalink: YA-book-club-ibi
 event-link: 'mailto:bookshop@storiesbk.com?subject=&quot;Registering for 02/10 MG Book Club&quot;'
 published: true
 ---
-Middle Grade Book Club - *{{ page.title }}* with {{ page.author }}
+Middle Grade Book Club - *{{ page.title }}* by {{ page.author }}

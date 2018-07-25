@@ -45,7 +45,7 @@ slug: bookshop
 		{% assign eventsNumber = 16 %}
 		{% assign printedEvents = 0 %}
 		{% for post in eventPost %}
-			{% assign curDate = site.time | date: '%Y-%m-%d' %}
+			{% assign curDate = site.time | date: "%s" | minus : 604800 | date: '%Y-%m-%d' %}
 			{% assign postStartDate = post.date | date: '%Y-%m-%d' %}
 			{% if postStartDate >= curDate and printedEvents < eventsNumber %}
 				{% assign printedEvents = printedEvents | plus: 1 %}

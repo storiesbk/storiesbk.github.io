@@ -19,7 +19,7 @@ slug: bookshop
 			<h5 class="lead-in"><a href="http://store.storiesbk.com" target="_blank">Shop now &raquo;</a></h5>
 		</div>
 		<div class="col-xs-12 col-md-offset-1 col-md-2">
-			<img src="{{ site.github.url }}/img/stories_bookshop.png" />
+			<img src="{{ site.url }}/img/stories_bookshop.png" />
 		</div>
 	</div>
 
@@ -28,7 +28,7 @@ slug: bookshop
 <div class="container-fluid m-b-3">
 	<div class="row">
 		<div class="col-sm-12 p-a-0">
-			<img src="{{ site.github.url }}/img/stories_bookshop_header.jpg" class="img-responsive" width="100%" height="auto"/>
+			<img src="{{ site.url }}/img/stories_bookshop_header.jpg" class="img-responsive" width="100%" height="auto"/>
 		</div>
 	</div>
 </div>
@@ -85,11 +85,11 @@ slug: bookshop
 		{% assign staffFavoritePosts = site.categories.staff-favorites | sort: 'date' | reverse %}
 		{% for post in staffFavoritePosts limit:9 %}
 			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-						<img src="{{ site.github.url }}/img/favorite-books/{{ post.book-image }}" />
+						<img src="{{ site.url }}/img/favorite-books/{{ post.book-image }}" />
 						<h4 class="m-t-2"><i>{{ post.book-title }}</i> by {{ post.book-author }}</h4>
 						<p>Section:&nbsp;{{ post.section }}</p>
 						<p>{{ post.content }}</p>
-						<p>Chosen by <strong><a href="{{ site.github.url }}/our-story/#{{ post.staff }}">{{ post.staff }}</a></strong></p>
+						<p>Chosen by <strong><a href="{{ site.url }}/our-story/#{{ post.staff }}">{{ post.staff }}</a></strong></p>
 			</div>
 		{% endfor %}
 	</div>
@@ -98,7 +98,7 @@ slug: bookshop
 <div class="container-fluid bg-light-light-orange color-orange p-y-6 text-xs-center">
 	<div class="row">
 		<div class="col-xs-12 col-md-8 col-md-offset-2">
-			<img src="{{ site.github.url }}/img/stories2.png" alt="" aria-hidden="true" width="245" height="auto" class="m-b-6">
+			<img src="{{ site.url }}/img/stories2.png" alt="" aria-hidden="true" width="245" height="auto" class="m-b-6">
 			<h2 class="m-b-2">Perfect Stories Book Clubs</h2>
 			<p class="lead">For the Stories community beyond our Brooklyn shop, join
 				or gift our <em>Signed Picture Book-of-the-Month Club</em>:

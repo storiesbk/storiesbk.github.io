@@ -1,10 +1,12 @@
 ---
 title: Secret Tree Fort
-author: Brianne Farley
-date: '2016-10-28 11:30:00 -0400'
-categories: events storytimes
+date: 2016-10-28 11:30:00 -04:00
 permalink: brianne-farley-secret-tree-fort
+categories:
+- events
+- storytimes
+author: Brianne Farley
 event-link: ''
-published: true
 ---
+
 {{ page.author }} presents - *{{ page.title }}*

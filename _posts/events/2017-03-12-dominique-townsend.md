@@ -1,10 +1,12 @@
 ---
 title: Shantideva
-author: Dominique Townsend
-date: '2017-03-12 10:30:00'
-categories: events storytimes
+date: 2017-03-12 10:30:00 -04:00
 permalink: dominique-townsend
-event-link: 'http://www.wisdompubs.org/book/shantideva'
-published: true
+categories:
+- events
+- storytimes
+author: Dominique Townsend
+event-link: http://www.wisdompubs.org/book/shantideva
 ---
+
 {{ page.author }} presents - *{{ page.title }}*

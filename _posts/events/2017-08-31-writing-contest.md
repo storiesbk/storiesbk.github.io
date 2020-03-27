@@ -1,10 +1,12 @@
 ---
 title: Summer YA Writing Contest
-author: Stories
-date: 2017-08-31 11:59PM
-categories: events storytimes
+date: 2017-08-31 23:59:00 -04:00
 permalink: writing-contest
-event-link: 'https://www.facebook.com/events/297016584100930/'
-published: true
+categories:
+- events
+- storytimes
+author: Stories
+event-link: https://www.facebook.com/events/297016584100930/
 ---
+
 Submit your work for the {{ page.author }} {{ page.title }}!

@@ -1,10 +1,12 @@
 ---
-title: "Radiant Child"
-author: Javaka Steptoe
-date: '2017-05-21 10:30AM'
-categories: events storytimes
+title: Radiant Child
+date: 2017-05-21 10:30:00 -04:00
 permalink: javaka-steptoe
-event-link: 'http://www.javaka.com/'
-published: true
+categories:
+- events
+- storytimes
+author: Javaka Steptoe
+event-link: http://www.javaka.com/
 ---
+
 {{ page.author }} presents - *{{ page.title }}*

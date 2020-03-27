@@ -1,10 +1,18 @@
-title: "Stories Bookshop + Storytelling Lab"
-description: "Stories is a children's bookshop and storytelling lab in Brooklyn."
-baseurl: ""
-url: "https://storiesbk.com"
+---
+title: Stories Bookshop + Storytelling Lab
+timezone: America/New_York
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+description: Stories is a children's bookshop and storytelling lab in Brooklyn.
+baseurl: ''
+url: https://storiesbk.com
 repository: storiesbk/storiesbk.github.io
 future: true
-timezone: America/New_York
 plugins:
-  - "jekyll-sitemap"
-  - "jekyll-github-metadata"
+- jekyll-sitemap
+- jekyll-github-metadata

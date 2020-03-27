@@ -1,10 +1,12 @@
 ---
 title: Marlo
-author: Christopher Browne
-date: 2017-07-23 10:30AM
-categories: events storytimes
+date: 2017-07-23 10:30:00 -04:00
 permalink: christopher-browne
-event-link: 'https://www.facebook.com/events/1885959918288298/'
-published: true
+categories:
+- events
+- storytimes
+author: Christopher Browne
+event-link: https://www.facebook.com/events/1885959918288298/
 ---
+
 {{ page.author }} presents - *{{ page.title }}*

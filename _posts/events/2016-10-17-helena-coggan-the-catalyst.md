@@ -1,9 +1,10 @@
 ---
 title: The Catalyst
-author: Helena Coggan
-date: '2016-10-17 18:00:00 -0400'
-categories: events
+date: 2016-10-17 18:00:00 -04:00
 permalink: helena-coggan-the-catalyst
-event-link: 'https://www.facebook.com/events/153541675098492/'
-published: true
+categories:
+- events
+author: Helena Coggan
+event-link: https://www.facebook.com/events/153541675098492/
 ---
+

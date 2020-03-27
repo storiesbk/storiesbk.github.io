@@ -1,10 +1,12 @@
 ---
 title: Building Resilience in Kids
-author: Anastasia Higginbotham
-date: 2017-11-10 7:00PM
-categories: events storytimes
+date: 2017-11-10 19:00:00 -05:00
 permalink: alex-daly
-event-link: 'https://www.facebook.com/events/131883370867238/'
-published: true
+categories:
+- events
+- storytimes
+author: Anastasia Higginbotham
+event-link: https://www.facebook.com/events/131883370867238/
 ---
+
 Stories After Bedtime: {{ page.author }} discusses {{ page.title }}

@@ -1,10 +1,12 @@
 ---
 title: Pete With No Pants
-author: Rowboat Watkins
-date: 2017-06-11 10:30AM
-categories: events storytimes
+date: 2017-06-11 10:30:00 -04:00
 permalink: rowboat-watkins
-event-link: 'http://www.rowboatwatkins.com/'
-published: true
+categories:
+- events
+- storytimes
+author: Rowboat Watkins
+event-link: http://www.rowboatwatkins.com/
 ---
+
 {{ page.author }} presents - *{{ page.title }}*

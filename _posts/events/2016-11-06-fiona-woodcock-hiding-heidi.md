@@ -1,10 +1,12 @@
 ---
 title: Hiding Heidi
-author: Fiona Woodcock
-date: '2016-11-06 10:30:00 -0500'
-categories: events storytimes
+date: 2016-11-06 10:30:00 -05:00
 permalink: fiona-woodcock-hiding-heidi
-event-link: 'https://www.facebook.com/events/1388739787822128/'
-published: true
+categories:
+- events
+- storytimes
+author: Fiona Woodcock
+event-link: https://www.facebook.com/events/1388739787822128/
 ---
+
 {{ page.author }} presents - *{{ page.title }}*

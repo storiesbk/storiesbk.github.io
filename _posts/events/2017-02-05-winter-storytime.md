@@ -1,10 +1,12 @@
 ---
 title: Winter Storytime
-author: Stories Staff
-date: '2017-02-05 10:30:00 -0500'
-categories: events storytimes
+date: 2017-02-05 10:30:00 -05:00
 permalink: winter-storytime
-event-link: 'storytelling-lab'
-published: true
+categories:
+- events
+- storytimes
+author: Stories Staff
+event-link: storytelling-lab
 ---
+
 {{ page.author }} presents - *{{ page.title }}*

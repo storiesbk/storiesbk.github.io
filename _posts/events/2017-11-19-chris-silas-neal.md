@@ -1,10 +1,12 @@
 ---
 title: I Won't Eat That
-author: Christopher Silas Neal
-date: 2017-11-19 10:30AM
-categories: events storytimes
+date: 2017-11-19 10:30:00 -05:00
 permalink: chris-silas-neal
-event-link: 'https://www.facebook.com/events/122980528383312/'
-published: true
+categories:
+- events
+- storytimes
+author: Christopher Silas Neal
+event-link: https://www.facebook.com/events/122980528383312/
 ---
+
 {{ page.author }} presents - *{{ page.title }}*

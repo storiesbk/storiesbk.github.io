@@ -1,10 +1,12 @@
 ---
 title: Delivery
-author: Aaron Meshon
-date: '2017-02-19 10:30:00 -0500'
-categories: events storytimes
+date: 2017-02-19 10:30:00 -05:00
 permalink: aaron-meshon
-event-link: 'http://www.aaronmeshon.com/delivery/'
-published: true
+categories:
+- events
+- storytimes
+author: Aaron Meshon
+event-link: http://www.aaronmeshon.com/delivery/
 ---
+
 {{ page.author }} presents - *{{ page.title }}*

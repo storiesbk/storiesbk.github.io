@@ -1,10 +1,11 @@
 ---
 title: The Whiz Mob and the Grenadine Kid
-author: Colin Meloy
-date: '2018-09-29 1:30PM'
-categories: events
+date: 2018-09-29 13:30:00 -04:00
 permalink: middle-grade-book-club-meloy
-event-link: 'https://www.facebook.com/events/295311457937611/'
-published: true
+categories:
+- events
+author: Colin Meloy
+event-link: https://www.facebook.com/events/295311457937611/
 ---
+
 Middle Grade Book Club - *{{ page.title }}* by {{ page.author }}

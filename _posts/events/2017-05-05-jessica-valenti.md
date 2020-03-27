@@ -1,10 +1,13 @@
 ---
-title: "Sex Object: A Memoir"
-author: Jessica Valenti
-date: '2017-05-05 19:00:00'
-categories: events storytimes afterbedtime
+title: 'Sex Object: A Memoir'
+date: 2017-05-05 19:00:00 -04:00
 permalink: jessica-valenti
-event-link: 'https://www.jessicavalenti.com/'
-published: true
+categories:
+- events
+- storytimes
+- afterbedtime
+author: Jessica Valenti
+event-link: https://www.jessicavalenti.com/
 ---
+
 Stories After Bedtime: {{ page.author }} discusses *{{ page.title }}*

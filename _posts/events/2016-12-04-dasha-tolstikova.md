@@ -1,10 +1,12 @@
 ---
 title: Friend or Foe + If a T-Rex Crashes Your Birthday Party
-author: Dasha Tolstikova
-date: '2016-12-04 10:30:00 -0500'
-categories: events storytimes
+date: 2016-12-04 10:30:00 -05:00
 permalink: dasha-tolstikova
-event-link: 'http://www.dashatolstikova.com/'
-published: true
+categories:
+- events
+- storytimes
+author: Dasha Tolstikova
+event-link: http://www.dashatolstikova.com/
 ---
+
 {{ page.author }} presents - *{{ page.title }}*

@@ -1,10 +1,12 @@
 ---
 title: Moo Moo in a Tutu
-author: Tim Miller
-date: 2017-07-09 10:30AM
-categories: events storytimes
+date: 2017-07-09 10:30:00 -04:00
 permalink: tim-miller
-event-link: 'https://www.facebook.com/events/477395025944410/'
-published: true
+categories:
+- events
+- storytimes
+author: Tim Miller
+event-link: https://www.facebook.com/events/477395025944410/
 ---
+
 {{ page.author }} presents - *{{ page.title }}*

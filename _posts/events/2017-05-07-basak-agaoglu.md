@@ -1,10 +1,12 @@
 ---
 title: The Almost Impossible Thing
-author: Basak Agaoglu
-date: '2017-05-07 10:30:00'
-categories: events storytimes
+date: 2017-05-07 10:30:00 -04:00
 permalink: basak-agaoglu
-event-link: 'http://www.basakagaoglu.com'
-published: true
+categories:
+- events
+- storytimes
+author: Basak Agaoglu
+event-link: http://www.basakagaoglu.com
 ---
+
 {{ page.author }} presents - *{{ page.title }}*

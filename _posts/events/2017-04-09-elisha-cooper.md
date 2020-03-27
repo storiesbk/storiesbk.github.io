@@ -1,10 +1,12 @@
 ---
 title: Big Cat, Little Cat
-author: Elisha Cooper
-date: '2017-04-09 10:30:00'
-categories: events storytimes
+date: 2017-04-09 10:30:00 -04:00
 permalink: elisha-cooper
-event-link: 'http://www.elishacooper.com/index.php/books/detail/big_cat_little_cat'
-published: true
+categories:
+- events
+- storytimes
+author: Elisha Cooper
+event-link: http://www.elishacooper.com/index.php/books/detail/big_cat_little_cat
 ---
+
 {{ page.author }} presents - *{{ page.title }}*

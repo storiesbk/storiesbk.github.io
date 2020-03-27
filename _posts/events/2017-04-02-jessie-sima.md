@@ -1,10 +1,12 @@
 ---
 title: Not Quite Narwhal
-author: Jessie Sima
-date: '2017-04-02 10:30:00'
-categories: events storytimes
+date: 2017-04-02 10:30:00 -04:00
 permalink: jessie-sima
-event-link: 'https://www.jessiesima.com/'
-published: true
+categories:
+- events
+- storytimes
+author: Jessie Sima
+event-link: https://www.jessiesima.com/
 ---
+
 {{ page.author }} presents - *{{ page.title }}*

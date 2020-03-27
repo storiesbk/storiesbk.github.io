@@ -1,10 +1,12 @@
 ---
 title: Princess Hair
-author: Sharee Miller
-date: 2018-01-28 10:30AM
-categories: events storytimes
+date: 2018-01-28 10:30:00 -05:00
 permalink: sharee-miller
-event-link: 'https://www.facebook.com/events/190274208375587/'
-published: true
+categories:
+- events
+- storytimes
+author: Sharee Miller
+event-link: https://www.facebook.com/events/190274208375587/
 ---
+
 {{ page.author }} presents - *{{ page.title }}*

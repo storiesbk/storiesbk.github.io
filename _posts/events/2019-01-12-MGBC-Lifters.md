@@ -1,10 +1,11 @@
 ---
 title: The Lifters
-author: Dave Eggers
-date: '2019-01-12 4:00PM'
-categories: events
+date: 2019-01-12 16:00:00 -05:00
 permalink: middle-grade-book-club-lifters
-event-link: 'https://www.facebook.com/events/2212749608980177/'
-published: true
+categories:
+- events
+author: Dave Eggers
+event-link: https://www.facebook.com/events/2212749608980177/
 ---
+
 Middle Grade Book Club - *{{ page.title }}* by {{ page.author }}

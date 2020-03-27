@@ -1,10 +1,12 @@
 ---
 title: Movie Night
-author: Cloudy with a Chance of Meatballs
-date: '2017-03-17 18:00:00'
-categories: events
+date: 2017-03-17 18:00:00 -04:00
 permalink: meatballs-movie
-event-link: 'mailto:labs@storiesbk.com?subject=&quot;RSVP for 3/17 Movie Night at Stories&quot;'
 published: false
+categories:
+- events
+author: Cloudy with a Chance of Meatballs
+event-link: mailto:labs@storiesbk.com?subject=&quot;RSVP for 3/17 Movie Night at Stories&quot;
 ---
+
 Movie Night - {{ page.author }}!

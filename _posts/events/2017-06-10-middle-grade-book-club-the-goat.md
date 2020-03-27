@@ -1,10 +1,12 @@
 ---
 title: The Goat
-author: Anne Fleming
-date: '2017-06-10 4:00PM'
-categories: events
+date: 2017-06-10 16:00:00 -04:00
 permalink: middle-grade-book-club-the-goat
-event-link: 'mailto:bookshop@storiesbk.com?subject=&quot;Registering for 6/10 Middle Reader Book Club&quot;'
-published: true
+categories:
+- events
+author: Anne Fleming
+event-link: mailto:bookshop@storiesbk.com?subject=&quot;Registering for 6/10 Middle
+  Reader Book Club&quot;
 ---
+
 Middle Grade Book Club - *{{ page.title }}* by {{ page.author }}

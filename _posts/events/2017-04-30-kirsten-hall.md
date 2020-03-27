@@ -1,10 +1,12 @@
 ---
 title: The Gold Leaf
-author: Kirsten Hall
-date: '2017-04-30 10:30:00'
-categories: events storytimes
+date: 2017-04-30 10:30:00 -04:00
 permalink: kirsten-hall
-event-link: 'https://twitter.com/HallWaysKirsten?lang=en'
-published: true
+categories:
+- events
+- storytimes
+author: Kirsten Hall
+event-link: https://twitter.com/HallWaysKirsten?lang=en
 ---
+
 {{ page.author }} presents - *{{ page.title }}*

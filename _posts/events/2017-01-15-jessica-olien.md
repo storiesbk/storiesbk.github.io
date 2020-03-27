@@ -1,10 +1,12 @@
 ---
 title: 'Adrift: An Odd Couple of Polar Bears + Shark Detective'
-author: Jessica Olien
-date: '2017-01-15 10:30:00 -0500'
-categories: events storytimes
+date: 2017-01-15 10:30:00 -05:00
 permalink: jessica-olien
-event-link: 'http://www.jessicaolien.com/'
-published: true
+categories:
+- events
+- storytimes
+author: Jessica Olien
+event-link: http://www.jessicaolien.com/
 ---
+
 {{ page.author }} presents - *{{ page.title }}*

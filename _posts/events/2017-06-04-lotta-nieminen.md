@@ -1,10 +1,12 @@
 ---
 title: Pizza! An Interactive Board Book
-author: Lotta Nieminen
-date: 2017-06-04 10:30AM
-categories: events storytimes
+date: 2017-06-04 10:30:00 -04:00
 permalink: lotta-nieminen
-event-link: 'https://agentpekka.com/artist/lotta-nieminen/'
-published: true
+categories:
+- events
+- storytimes
+author: Lotta Nieminen
+event-link: https://agentpekka.com/artist/lotta-nieminen/
 ---
+
 {{ page.author }} presents - *{{ page.title }}*

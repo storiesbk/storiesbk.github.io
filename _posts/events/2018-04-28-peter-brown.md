@@ -1,10 +1,12 @@
 ---
 title: The Wild Robot Escapes
-author: Peter Brown
-date: 2018-04-28 1:00PM
-categories: events storytimes
+date: 2018-04-28 13:00:00 -04:00
 permalink: peter-brown
-event-link: 'https://www.facebook.com/events/1796101934029189/'
-published: true
+categories:
+- events
+- storytimes
+author: Peter Brown
+event-link: https://www.facebook.com/events/1796101934029189/
 ---
+
 {{ page.author }} presents - *{{ page.title }}* at Bklyn Public Library

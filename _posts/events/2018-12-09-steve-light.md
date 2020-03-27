@@ -1,10 +1,12 @@
 ---
 title: Builders & Breakers
-author: Steve Light
-date: 2018-12-09 10:30AM
-categories: events storytimes
+date: 2018-12-09 10:30:00 -05:00
 permalink: steve-light
-event-link: 'https://www.facebook.com/events/337451250167308/'
-published: true
+categories:
+- events
+- storytimes
+author: Steve Light
+event-link: https://www.facebook.com/events/337451250167308/
 ---
+
 {{ page.author }} presents - *{{ page.title }}*

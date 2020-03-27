@@ -1,10 +1,12 @@
 ---
 title: Good Morning, City
-author: NY1's Pat Kiernan
-date: '2016-12-11 10:30:00 -0500'
-categories: events storytimes
+date: 2016-12-11 10:30:00 -05:00
 permalink: pat-kiernan-good-morning-city
-event-link: 'http://us.macmillan.com/goodmorningcity/patkiernan'
-published: true
+categories:
+- events
+- storytimes
+author: NY1's Pat Kiernan
+event-link: http://us.macmillan.com/goodmorningcity/patkiernan
 ---
+
 {{ page.author }} presents - *{{ page.title }}*

@@ -1,10 +1,12 @@
 ---
 title: I'm Afraid Your Teddy Is In Trouble Today
-author: Jancee Dunn
-date: 2017-10-15 10:30AM
-categories: events storytimes
+date: 2017-10-15 10:30:00 -04:00
 permalink: jancee-dunn
-event-link: 'https://www.facebook.com/events/117752005608028/'
-published: true
+categories:
+- events
+- storytimes
+author: Jancee Dunn
+event-link: https://www.facebook.com/events/117752005608028/
 ---
+
 {{ page.author }} presents - *{{ page.title }}*

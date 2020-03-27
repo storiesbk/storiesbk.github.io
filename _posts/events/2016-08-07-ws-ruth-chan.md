@@ -1,9 +1,11 @@
 ---
 title: Where's the Party?
-author: Ruth Chan
-date: '2016-08-07 10:30:27 -0400'
-categories: events storytimes
+date: 2016-08-07 10:30:27 -04:00
 permalink: wheres-the-party
-event-link: 'https://www.facebook.com/events/491137217742824/'
-published: true
+categories:
+- events
+- storytimes
+author: Ruth Chan
+event-link: https://www.facebook.com/events/491137217742824/
 ---
+

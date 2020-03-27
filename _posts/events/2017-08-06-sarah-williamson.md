@@ -1,10 +1,12 @@
 ---
 title: Where Are You?
-author: Sarah Williamson
-date: 2017-08-06 10:30AM
-categories: events storytimes
+date: 2017-08-06 10:30:00 -04:00
 permalink: sarah-williamson
-event-link: 'https://www.facebook.com/events/324050514704365/'
-published: true
+categories:
+- events
+- storytimes
+author: Sarah Williamson
+event-link: https://www.facebook.com/events/324050514704365/
 ---
+
 {{ page.author }} presents - *{{ page.title }}*

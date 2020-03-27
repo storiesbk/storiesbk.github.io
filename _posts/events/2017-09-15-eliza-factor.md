@@ -1,10 +1,12 @@
 ---
 title: Strange Beauty
-author: Eliza Factor
-date: 2017-09-15 7:00PM
-categories: events storytimes
+date: 2017-09-15 19:00:00 -04:00
 permalink: eliza-factor
-event-link: 'https://www.facebook.com/events/113526426008417/'
-published: true
+categories:
+- events
+- storytimes
+author: Eliza Factor
+event-link: https://www.facebook.com/events/113526426008417/
 ---
+
 Stories After Bedtime: {{ page.author }} presents - *{{ page.title }}*

@@ -1,10 +1,12 @@
 ---
 title: Pancakes!
-author: Lotta Nieminen
-date: '2017-01-08 10:30:00 -0500'
-categories: events storytimes
+date: 2017-01-08 10:30:00 -05:00
 permalink: lotta-nieminen
-event-link: 'https://agentpekka.com/artist/lotta-nieminen/'
-published: true
+categories:
+- events
+- storytimes
+author: Lotta Nieminen
+event-link: https://agentpekka.com/artist/lotta-nieminen/
 ---
+
 {{ page.author }} presents - *{{ page.title }}*

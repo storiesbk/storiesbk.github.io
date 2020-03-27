@@ -1,10 +1,12 @@
 ---
 title: Amy The Red Panda Is Writing The Best Story In The World
-author: Colleen AF Venable + Ruth Chan
-date: 2018-01-21 10:30AM
-categories: events storytimes
+date: 2018-01-21 10:30:00 -05:00
 permalink: colleen-ruth
-event-link: 'https://www.facebook.com/events/1695434347180506/'
-published: true
+categories:
+- events
+- storytimes
+author: Colleen AF Venable + Ruth Chan
+event-link: https://www.facebook.com/events/1695434347180506/
 ---
+
 {{ page.author }} presents - *{{ page.title }}*

@@ -1,10 +1,12 @@
 ---
 title: Why Am I Me?
-author: Sean Qualls + Selina Alko
-date: 2017-10-01 10:30AM
-categories: events storytimes
+date: 2017-10-01 10:30:00 -04:00
 permalink: why-me
-event-link: 'https://www.facebook.com/events/481728012203157/'
-published: true
+categories:
+- events
+- storytimes
+author: Sean Qualls + Selina Alko
+event-link: https://www.facebook.com/events/481728012203157/
 ---
+
 {{ page.author }} present - *{{ page.title }}*

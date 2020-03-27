@@ -1,10 +1,12 @@
 ---
 title: I Do Not Like Al's Hat
-author: Erin McGill
-date: '2017-04-16 10:30:00'
-categories: events storytimes
+date: 2017-04-16 10:30:00 -04:00
 permalink: erin-mcgill
-event-link: 'http://www.erinmcgill.com/'
-published: true
+categories:
+- events
+- storytimes
+author: Erin McGill
+event-link: http://www.erinmcgill.com/
 ---
+
 {{ page.author }} presents - *{{ page.title }}*

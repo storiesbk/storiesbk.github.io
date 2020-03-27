@@ -1,10 +1,12 @@
 ---
 title: There Are No Bears in This Bakery
-author: Julia Sarcone-Roach
-date: 2019-02-03 10:30AM
-categories: events storytimes
+date: 2019-02-03 10:30:00 -05:00
 permalink: bears-bakery
-event-link: 'https://www.facebook.com/events/374432073343019/'
-published: true
+categories:
+- events
+- storytimes
+author: Julia Sarcone-Roach
+event-link: https://www.facebook.com/events/374432073343019/
 ---
+
 {{ page.author }} presents - *{{ page.title }}*

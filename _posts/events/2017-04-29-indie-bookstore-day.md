@@ -1,10 +1,12 @@
 ---
 title: Independent Bookstore Day
-author: Many
-date: '2017-04-29 10:00:00'
-categories: events storytimes
+date: 2017-04-29 10:00:00 -04:00
 permalink: indie-bookstore-day
-event-link: 'http://www.indiebookstoreday.com/'
-published: true
+categories:
+- events
+- storytimes
+author: Many
+event-link: http://www.indiebookstoreday.com/
 ---
+
 {{ page.title }}!

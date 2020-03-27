@@ -9,7 +9,7 @@ collections:
     title: Uploads
     output: true
 description: Stories is a children's bookshop and storytelling lab in Brooklyn.
-baseurl: ''
+baseurl: 
 url: https://storiesbk.com
 repository: storiesbk/storiesbk.github.io
 future: true

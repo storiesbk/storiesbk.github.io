@@ -18,7 +18,7 @@ layout: default
 				<h5 class="lead-in"><a href="{{ site.url }}/registration">Sign Up for Classes &raquo;</a></h5>
 			</div>
 			<div class="col-xs-12 col-md-2 col-md-offset-1">
-				<img src="{{ site.url }}/img/stories_storytellinglab.png" />
+				<img src="{{site.url}}/img/stories_storytellinglab.png" />
 			</div>
 		</div>
 	</div>

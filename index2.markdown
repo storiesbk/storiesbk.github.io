@@ -3,11 +3,11 @@ title: Stories Bookshop + Storytelling Lab
 slug: home
 headline_text: Stories is a children's bookshop and storytelling lab in Brooklyn.
 notice_text: |-
-  <a href="http://shop.storiesbk.com" target="_blank">Shop online now &raquo;</a></span>
-  <br><br>
-  <a href="{{ site.url }}/registration">Sign Up for Classes &raquo;</a></span>
-  <br><br>
-  <a href="#subscribe">Get Stories News &raquo;</a>
+  [Shop online now »](https://shop.storiesbk.com)
+
+  [Sign Up for Classes »]({{ site.url }}/registration)
+
+  [Get Stories News »](#subscribe)
 layout: default
 ---
 

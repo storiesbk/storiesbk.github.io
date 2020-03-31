@@ -1,14 +1,14 @@
 ---
 title: Stories Bookshop + Storytelling Lab
-layout: default
 slug: home
+layout: default
 ---
 
 <div class="top-section color-blue">
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-10 col-sm-offset-1">
-				<h1 class="statement text-xs-center">Stories is a children's bookshop and storytelling lab in Brooklyn.</h1>
+				<h1 class="statement text-xs-center">{{Stories is a children's bookshop and storytelling lab in Brooklyn.}}</h1>
 				<span class="notice h6 text-xs-center"><a href="http://shop.storiesbk.com" target="_blank">Shop online now &raquo;</a></span>
 				<br><br>
 				<span class="notice h6 text-xs-center"><a href="{{ site.url }}/registration">Sign Up for Classes &raquo;</a></span>

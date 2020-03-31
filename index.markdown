@@ -5,7 +5,7 @@ headline_text: Stories is a children's bookshop and storytelling lab in Brooklyn
 notice_text: |-
   [Shop online now »](https://shop.storiesbk.com)
 
-  [Sign Up for Classes »]({{ site.url }}/registration)
+  [Sign Up for Classes »](registration)
 
   [Get Stories News »](#subscribe)
 layout: default

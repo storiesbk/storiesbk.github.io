@@ -1,7 +1,7 @@
 ---
 title: Stories Bookshop + Storytelling Lab
 slug: home
-headline_text: Stories is a **children's bookshop** and storytelling lab in Brooklyn.
+headline_text: Stories is a children's bookshop and storytelling lab in Brooklyn.
 layout: default
 ---
 

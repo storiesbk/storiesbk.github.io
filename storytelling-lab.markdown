@@ -1,11 +1,11 @@
 ---
 title: Storytelling Lab
 permalink: "/storytelling-lab/"
-layout: default
 slug: storytelling-lab
+layout: default
 ---
 
-	<div class="container p-y-3">
+<div class="container p-y-3">
 		<div class="row">
 			<div class="col-xs-12 p-b-1">
 				<h2 class="circular-bold">Storytelling Lab</h2>
@@ -89,4 +89,4 @@ slug: storytelling-lab
 				</div>
 			</div>
 		</div>
-	</div>
+</div>

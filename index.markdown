@@ -1,19 +1,22 @@
 ---
 title: Stories Bookshop + Storytelling Lab
-layout: default
 slug: home
+headline_text: Stories is a children's bookshop and storytelling lab in Brooklyn.
+notice_text: |-
+  [Shop online now »](https://shop.storiesbk.com)
+
+  [Sign Up for Classes »](registration)
+
+  [Get Stories News »](#subscribe)
+layout: default
 ---
 
 <div class="top-section color-blue">
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-10 col-sm-offset-1">
-				<h1 class="statement text-xs-center">Stories is a children's bookshop and storytelling lab in Brooklyn.</h1>
-				<span class="notice h6 text-xs-center"><a href="http://shop.storiesbk.com" target="_blank">Shop online now &raquo;</a></span>
-				<br><br>
-				<span class="notice h6 text-xs-center"><a href="{{ site.url }}/registration">Sign Up for Classes &raquo;</a></span>
-				<br><br>
-				<span class="notice h6 text-xs-center"><a href="#subscribe">Get Stories News &raquo;</a></span>
+				<h1 class="statement text-xs-center">{{ page.headline_text | markdownify }}</h1>
+				<span class="notice h6 text-xs-center">{{ page.notice_text | markdownify }}</span>
 				<br><br>
 			</div>
 		</div>

@@ -1,0 +1,128 @@
+.top-section {
+  overflow: hidden;
+  max-width: 100%;
+  position: relative;
+  padding-top: 150px;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  @media screen and (max-width: 768px) {
+    padding-top: 0;
+  }
+  background: #ffddc6;
+}
+
+.flex-full-height {
+  display: flex;
+  align-items: stretch;
+  & > div > div {
+    max-width: calc((1140px / 2) - 7rem);
+  }
+  & > div:first-of-type {
+    text-align: right;
+    display: inline-block;
+    & > div {
+      display: inline-block;
+      text-align: left;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    display: block;
+    .p-a-6 {
+      padding: 3rem !important;
+    }
+  }
+}
+
+h1.statement {
+  padding-bottom: 3rem;
+}
+
+#visit-image {
+  background-image: url(../img/stories_exterior.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  display: block;
+}
+
+@keyframes slidein {
+  0% {
+    left: 100%;
+    transform: rotate3d(0,1,0,0deg);
+  }
+  50% {
+    left: -25%;
+    transform: rotate3d(0,1,0,0deg);
+  }
+  51% {
+    right: -125%;
+    transform: rotate3d(0,1,0,180deg);
+  }
+  99% {
+    transform: rotate3d(0,1,0,180deg);
+  }
+  100% {
+    left: 125%;
+    transform: rotate3d(0,1,0,0deg);
+  }
+}
+
+
+@keyframes mobile-animation {
+  0% {
+  top:  calc(50% - 150px);
+  }
+  50% {
+    top:  calc(50% - 140px);
+  }
+  100% {
+    top:  calc(50% - 150px);
+  }
+}
+
+.notice {
+  @extend h5, .lead-in;
+  z-index: 100;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.cloud {
+  position: absolute;
+  z-index: 0;
+}
+
+#cloud1 {
+  top: calc(50% + 150px);
+  left: calc(50% - 145px);
+  z-index: 0;
+}
+
+#cloud2 {
+  top: calc(50% - 220px);
+  left: calc(50% + 30vw);
+  z-index: 0;
+}
+
+#cloud3 {
+  top: calc(50% - 210px);
+  left: calc(50% - 600px);
+  z-index: 0;
+}
+
+#person {
+  position: absolute;
+  top: calc(50% - 190px);
+  left: calc(50% + 24vw);
+  width: 230px;
+  animation: slidein 120s linear infinite;
+  @media screen and (max-width: 768px) {
+    width: 200px;
+    animation: mobile-animation 5s ease infinite;
+  }
+  z-index: 1000;
+}

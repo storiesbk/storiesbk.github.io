@@ -1,0 +1,18 @@
+---
+title: Stories Bookshop + Storytelling Lab
+timezone: America/New_York
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+description: Stories is a children's bookshop and storytelling lab in Brooklyn.
+baseurl: 
+url: https://storiesbk.com
+repository: storiesbk/storiesbk.github.io
+future: true
+plugins:
+- jekyll-sitemap
+- jekyll-github-metadata

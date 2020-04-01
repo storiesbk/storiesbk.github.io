@@ -16,7 +16,7 @@ layout: default
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-10 col-sm-offset-1">
-<span class="statement text-xs-center">
+<span class="h1 statement text-xs-center">
 {{ page.hero_text | markdownify }}
 </span>
 			</div>

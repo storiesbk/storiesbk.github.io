@@ -16,6 +16,5 @@ future: true
 plugins:
 - jekyll-sitemap
 - jekyll-github-metadata
-footer_openhours_text: |-
-  Sunday - Monday 10am - 6pm
-  Tuesday - Saturday 10am - 7pm
+footer_openhours_text: Stories is closed until further notice due to Covid-19. Please
+  support us by placing an online order [here](http://shop.storiesbk.com).

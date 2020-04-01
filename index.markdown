@@ -13,6 +13,10 @@ layout: default
 ---
 
 <div class="top-section color-blue">
+	<img src="{{ site.url }}/img/clouds1.png" id="cloud1" class="cloud" width="200" height="120">
+	<img src="{{ site.url }}/img/clouds2.png" id="cloud2" class="cloud" width="200" height="120">
+	<img src="{{ site.url }}/img/clouds3.png" id="cloud3" class="cloud" width="200" height="120">
+	<img src="{{ site.url }}/img/stories.png" id="person" width="230" height="auto">
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-10 col-sm-offset-1">
@@ -22,10 +26,6 @@ layout: default
 			</div>
 		</div>
 	</div>
-	<img src="{{ site.url }}/img/clouds1.png" id="cloud1" class="cloud" width="200" height="120">
-	<img src="{{ site.url }}/img/clouds2.png" id="cloud2" class="cloud" width="200" height="120">
-	<img src="{{ site.url }}/img/clouds3.png" id="cloud3" class="cloud" width="200" height="120">
-	<img src="{{ site.url }}/img/stories.png" id="person" width="230" height="auto">
 </div>
 
 <div class="flex-full-height">

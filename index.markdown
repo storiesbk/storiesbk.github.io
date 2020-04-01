@@ -32,9 +32,9 @@ layout: default
 			</div>
 		</div>
 	</div>
-	<img src="{{ site.url }}/img/clouds1.png" id="cloud1" class="cloud" width="200" height="120" z-index="-1">
-	<img src="{{ site.url }}/img/clouds2.png" id="cloud2" class="cloud" width="200" height="120" z-index="-1">
-	<img src="{{ site.url }}/img/clouds3.png" id="cloud3" class="cloud" width="200" height="120" z-index="-1">
+	<img src="{{ site.url }}/img/clouds1.png" id="cloud1" class="cloud" width="200" height="120">
+	<img src="{{ site.url }}/img/clouds2.png" id="cloud2" class="cloud" width="200" height="120">
+	<img src="{{ site.url }}/img/clouds3.png" id="cloud3" class="cloud" width="200" height="120">
 	<img src="{{ site.url }}/img/stories.png" id="person" width="230" height="auto">
 </div>
 

@@ -94,19 +94,19 @@ h1.statement {
 
 .cloud {
   position: absolute;
-  z-index: -1;
+  z-index: 0;
 }
 
 #cloud1 {
   top: calc(50% + 150px);
   left: calc(50% - 145px);
-  z-index: -1;
+  z-index: 0;
 }
 
 #cloud2 {
   top: calc(50% - 220px);
   left: calc(50% + 30vw);
-  z-index: -1;
+  z-index: 0;
 }
 
 #cloud3 {

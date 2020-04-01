@@ -26,9 +26,9 @@ layout: default
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-10 col-sm-offset-1">
-<h1 class="statement text-xs-center">
+<span class="notice text-xs-center">
 {{ page.hero_text | markdownify }}
-</h1>
+</span>
 			</div>
 		</div>
 	</div>

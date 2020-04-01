@@ -4,11 +4,11 @@ slug: home
 hero_text: |-
   ## Stories bookshop and storytelling lab is currently closed due to Covid-19, though we are still fulfilling [orders](https://shop.storiesbk.com) (albeit a bit slower than usual) and delivering [classes](registration) online.
 
-  [Shop Online Now »](https://shop.storiesbk.com)
+  ##### [Shop Online Now »](https://shop.storiesbk.com)
 
-  [Sign Up for Online Classes »](registration)
+  ##### [Sign Up for Online Classes »](registration)
 
-  [Get Stories News »](#subscribe)
+  ##### [Get Stories News »](#subscribe)
 layout: default
 ---
 
@@ -16,7 +16,7 @@ layout: default
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-10 col-sm-offset-1">
-<span class="statement text-xs-center">
+<span class="h1 statement text-xs-center">
 {{ page.hero_text | markdownify }}
 </span>
 			</div>

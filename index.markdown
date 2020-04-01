@@ -1,7 +1,9 @@
 ---
 title: Stories Bookshop + Storytelling Lab
 slug: home
-headline_text: Stories is a children's bookshop and storytelling lab in Brooklyn.
+headline_text: Stories bookshop and storytelling lab is closed until further notice
+  due to Covid-19. We are fulfilling [orders](https://shop.storiesbk.com) and delivering
+  many of our [classes](registration) online.
 notice_text: |-
   [Shop online now »](https://shop.storiesbk.com)
 

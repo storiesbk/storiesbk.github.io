@@ -58,14 +58,14 @@ layout: default
 			<h6 class="section-header">Drop-in Storytimes</h6>
 			<p class="small-body"><b>Sundays, 10:30am | All Ages | Free</b><br>We host authors and illustrators most Sunday mornings for free readings, signings, and story-related activities. See our <a href="{{ site.url }}/bookshop/#Events">upcoming events</a>.</p>
 			<p class="small-body">We lead storytimes with our staff for babies through toddlers five days a week! Here's our current schedule:<br>
-						<b>Mondays: 11:30am, 12:30pm, 3:00pm<br>
-							 Tuesdays: 10:30am<br>
-							 Wednesdays: 11:30am, 12:30pm<br>
-							 Thursdays: 10:30am, 11:30am<br>
-						 	 Fridays: 11:30am, 12:30pm<br></b>
+					<b>Mondays: 11:30am, 12:30pm, 3:00pm<br>
+						 Tuesdays: 10:30am<br>
+						 Wednesdays: 11:30am, 12:30pm<br>
+						 Thursdays: 10:30am, 11:30am<br>
+						 Fridays: 11:30am, 12:30pm<br></b>
 				<br>Weekday Storytimes with our staff are $10 per family, with further discounted Read-y passes available for sale in our bookshop or on our <a href="https://shop.storiesbk.com/shop/storytime-passes/5" target="_blank">online shop</a>:<br>
-				            $70 for 10 Storytimes<br>
-					    $40 for 5 Storytimes</p>
+						   $70 for 10 Storytimes<br>
+					     $40 for 5 Storytimes</p>
 			<p class="small-body">No sign-up or registration is needed for Storytimes.</p>
 		</div>
 	</div>

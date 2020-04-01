@@ -16,5 +16,5 @@ future: true
 plugins:
 - jekyll-sitemap
 - jekyll-github-metadata
-footer_openhours_text: Stories is closed until further notice due to Covid-19. Please
-  support us by placing an online order [here](http://shop.storiesbk.com).
+footer_openhours_text: Stories is closed until further notice due to Covid-19. We
+  are indeed fulfilling online orders [here](http://shop.storiesbk.com), though!

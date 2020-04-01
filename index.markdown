@@ -2,13 +2,13 @@
 title: Stories Bookshop + Storytelling Lab
 slug: home
 hero_text: |-
-  ## Stories bookshop and storytelling lab is closed until further notice due to Covid-19, though we are still fulfilling [orders](https://shop.storiesbk.com) (albeit a bit slower than usual) and delivering many of our [classes](registration) online.
+  ## Stories bookshop and storytelling lab is currently closed due to Covid-19, though we are still fulfilling [orders](https://shop.storiesbk.com) (albeit a bit slower than usual) and delivering [classes](registration) online.
 
-  ### [Shop online now »](https://shop.storiesbk.com)
+  [Shop online now »](https://shop.storiesbk.com)
 
-  ### [Sign Up for Classes »](registration)
+  [Sign Up for Classes »](registration)
 
-  ### [Get Stories News »](#subscribe)
+  [Get Stories News »](#subscribe)
 headline_text: Stories bookshop and storytelling lab is closed until further notice
   due to Covid-19, though we are still fulfilling [orders](https://shop.storiesbk.com)
   (albeit a bit slower than usual) and delivering many of our [classes](registration)
@@ -26,9 +26,9 @@ layout: default
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-10 col-sm-offset-1">
-<p class="statement text-xs-center">
+<div class="statement text-xs-center">
 {{ page.hero_text | markdownify }}
-</p>
+</div>
 			</div>
 		</div>
 	</div>

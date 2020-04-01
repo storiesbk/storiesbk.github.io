@@ -16,3 +16,6 @@ future: true
 plugins:
 - jekyll-sitemap
 - jekyll-github-metadata
+footer_openhours_text: |-
+  Sunday - Monday 10am - 6pm
+  Tuesday - Saturday 10am - 7pm

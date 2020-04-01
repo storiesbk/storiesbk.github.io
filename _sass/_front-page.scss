@@ -35,8 +35,9 @@
   }
 }
 
-h1.statement {
+.statement {
   padding-bottom: 3rem;
+  z-index: 100;
 }
 
 #visit-image {

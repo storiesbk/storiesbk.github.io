@@ -1,30 +1,31 @@
 ---
 title: Stories Bookshop + Storytelling Lab
 slug: home
-headline_text: Stories is a children's bookshop and storytelling lab in Brooklyn.
-notice_text: |-
-  [Shop online now »](https://shop.storiesbk.com)
+hero_text: |-
+  ## Stories bookshop and storytelling lab is currently closed due to Covid-19, though we are still fulfilling [orders](https://shop.storiesbk.com) (albeit a bit slower than usual) and delivering [classes](registration) online.
 
-  [Sign Up for Classes »](registration)
+  ##### [Shop Online Now »](https://shop.storiesbk.com)
 
-  [Get Stories News »](#subscribe)
+  ##### [Sign Up for Online Classes »](registration)
+
+  ##### [Get Stories News »](#subscribe)
 layout: default
 ---
 
 <div class="top-section color-blue">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12 col-sm-10 col-sm-offset-1">
-				<h1 class="statement text-xs-center">{{ page.headline_text | markdownify }}</h1>
-				<span class="notice h6 text-xs-center">{{ page.notice_text | markdownify }}</span>
-				<br><br>
-			</div>
-		</div>
-	</div>
 	<img src="{{ site.url }}/img/clouds1.png" id="cloud1" class="cloud" width="200" height="120">
 	<img src="{{ site.url }}/img/clouds2.png" id="cloud2" class="cloud" width="200" height="120">
 	<img src="{{ site.url }}/img/clouds3.png" id="cloud3" class="cloud" width="200" height="120">
 	<img src="{{ site.url }}/img/stories.png" id="person" width="230" height="auto">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-10 col-sm-offset-1">
+<span class="h1 statement text-xs-center">
+{{ page.hero_text | markdownify }}
+</span>
+			</div>
+		</div>
+	</div>
 </div>
 
 <div class="flex-full-height">

@@ -6,7 +6,7 @@ hero_text: |-
 
   ##### [Shop Online Now »](https://shop.storiesbk.com)
 
-  ##### [Sign Up for Online Classes »](registration)
+  ##### [Sign Up for Online Classes »](https://shop.storiesbk.com/shop/storytelling-lab-programs/55)
 
   ##### [Get Stories News »](#subscribe)
 layout: default

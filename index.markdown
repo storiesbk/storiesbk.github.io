@@ -2,7 +2,7 @@
 title: Stories Bookshop + Storytelling Lab
 slug: home
 hero_text: |-
-  ## Stories bookshop and storytelling lab is currently closed due to Covid-19, though we are still fulfilling [orders](https://shop.storiesbk.com) (albeit a bit slower than usual) and delivering [classes](registration) online.
+  ## Stories bookshop and storytelling lab is currently closed due to Covid-19, though we are still fulfilling [orders](https://shop.storiesbk.com) (albeit a bit slower than usual) and delivering [classes](https://shop.storiesbk.com/shop/storytelling-lab-programs/55) online.
 
   ##### [Shop Online Now »](https://shop.storiesbk.com)
 

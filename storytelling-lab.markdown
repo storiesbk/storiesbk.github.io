@@ -15,7 +15,7 @@ layout: default
 		<div class="col-xs-12 col-md-9 p-t-2">
 			<h5 class="circular lead-in">Tucked inside our bookshop, the Storytelling Lab hosts programming for kids after school, on weekends, and over the summer. Whether your child is a grapho-maniac always scribbling away or a somewhat reluctant writer, someone who loves to draw or is simply learning to hold a pen, our labs foster a love of words, pictures, and stories that children will carry with them for the rest of their lives.</h5>
 			<br>
-			<h5 class="lead-in"><a href="{{ site.url }}/registration">Sign Up for Classes &raquo;</a></h5>
+			<h5 class="lead-in"><a href="https://shop.storiesbk.com/shop/storytelling-lab-programs/55">Sign Up for Classes &raquo;</a></h5>
 		</div>
 		<div class="col-xs-12 col-md-2 col-md-offset-1">
 			<img src="{{ site.url }}/img/stories_storytellinglab.png" />
@@ -44,13 +44,13 @@ layout: default
 		<div class="col-xs-12 col-md-5 col-lg-5 m-b-3">
 			<h6 class="section-header">Labs</h6>
 			<p class="small-body">From Art to Yoga to Chess, your kids can explore a rich range of storytelling arts and form a community of artists and writers under the guidance of an expert teaching artist. In each of our classes we will share published stories, and give students a chance to share and present their work. With registration for every lab you will receive one adorable custom Stories notebook to inspire further scribbling.</p>
-			<a href="{{ site.url }}/registration" class="btn btn-primary-outline">Sign Up</a>
+			<a href="https://shop.storiesbk.com/shop/storytelling-lab-programs/55" class="btn btn-primary-outline">Sign Up</a>
 		</div>
 		<div class="col-xs-12 col-md-5 col-lg-5 col-md-offset-1 col-lg-offset-1 m-b-3">
 			<h6 class="section-header">Master Classes</h6>
 			<p class="small-body">Taught by amazing authors and illustrators in the Brooklyn community and beyond, our Stories Master Classes introduce young writers and artists to the world of the professional writer and offer a chance to learn directly from expert practitioners of the art form.</p>
 			<p class="small-body">Our Master Classes are usually 1.5-hour sessions held on a weekday evening or weekend, and focus on some element of storytelling of the master author or artist's choosing.</p>
-			<a href="{{ site.url }}/registration" class="btn btn-primary-outline">Sign Up</a>
+			<a href="https://shop.storiesbk.com/shop/storytelling-lab-programs/55" class="btn btn-primary-outline">Sign Up</a>
 		</div>
 	</div>
 	<div class="row color-dark-blue">

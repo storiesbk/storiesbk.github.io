@@ -2,7 +2,7 @@
 title: Stories Bookshop + Storytelling Lab
 slug: home
 hero_text: |-
-  ## Enter code 'SUMMERSTORIES' on our [webshop](https://shop.storiesbk.com) to save 30% on all orders for shipping or contactless pick-up, now through July 15 at 3pm ET. At that point we will be pausing all operations through the end of August.
+  ## Enter code 'SUMMERSTORIES' on our [webshop](https://shop.storiesbk.com) to save 30% on all orders for shipping or contactless pick-up through July 15 at 3pm ET.
 
   ##### [Shop Online Now »](https://shop.storiesbk.com)
 

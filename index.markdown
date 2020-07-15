@@ -2,7 +2,7 @@
 title: Stories Bookshop + Storytelling Lab
 slug: home
 hero_text: |-
-  ## Stories Bookshop + Storytelling Lab Brooklyn location is permanently closed. See our announcement [here](https://www.instagram.com/p/CBRA8aKn-PV/). Our webshop is on vacation until September.
+  ## We believe Stories can change the world. See our announcement [here](https://www.instagram.com/p/CBRA8aKn-PV/). We are on vacation until September.
 
   ##### [Stay in the loop on our next chapter »](#subscribe)
 layout: default

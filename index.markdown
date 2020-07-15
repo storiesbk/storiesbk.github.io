@@ -2,13 +2,9 @@
 title: Stories Bookshop + Storytelling Lab
 slug: home
 hero_text: |-
-  ## Enter code 'SUMMERSTORIES' on our [webshop](https://shop.storiesbk.com) to save 30% on all orders for shipping or contactless pick-up through July 15 at 3pm ET.
+  ## Stories Bookshop + Storytelling Lab Brooklyn location is permanently closed. See our announcement [here](https://www.instagram.com/p/CBRA8aKn-PV/). Our webshop is on vacation until September.
 
-  ##### [Shop Online Now »](https://shop.storiesbk.com)
-
-  ##### [Sign Up for Online Classes »](https://shop.storiesbk.com/shop/storytelling-lab-programs/55)
-
-  ##### [Get Stories News »](#subscribe)
+  ##### [Stay in the loop on our next chapter »](#subscribe)
 layout: default
 ---
 

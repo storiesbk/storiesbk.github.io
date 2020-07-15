@@ -1,10 +1,9 @@
 ---
 title: Stories Bookshop + Storytelling Lab
 slug: home
-hero_text: |-
-  ## We believe Stories can change the world. See our announcement [here](https://www.instagram.com/p/CBRA8aKn-PV/). We are on vacation until September.
-
-  ##### [Stay in the loop on our next chapter »](#subscribe)
+hero_text: "## We believe Stories can change the world. \n## See our announcement
+  [here](https://www.instagram.com/p/CBRA8aKn-PV/).\n## We are on vacation until September.\n\n#####
+  [Stay in the loop on our next chapter »](#subscribe)"
 layout: default
 ---
 

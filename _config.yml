@@ -16,5 +16,4 @@ future: true
 plugins:
 - jekyll-sitemap
 - jekyll-github-metadata
-footer_openhours_text: Stories is open for contactless pickup Tuesday-Saturday, 12pm-5PM,
-  until Wednesday July 15th, 2020. Place your order online [here](http://shop.storiesbk.com)!
+footer_openhours_text: Place your order online [here](http://shop.storiesbk.com)!

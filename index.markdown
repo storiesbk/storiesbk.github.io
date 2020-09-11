@@ -1,7 +1,7 @@
 ---
 title: Stories Bookshop + Storytelling Lab
 slug: home
-hero_text: "## We believe Stories can change the world. \n### [Use code 'BACK2SCHOOL'
+hero_text: "## We believe Stories can change the world. \n#### [Use code 'BACK2SCHOOL'
   for 50% off everything on our webshop »](https://shop.storiesbk.com)\n##### [Stay
   in the loop on our next chapter »](#subscribe)"
 layout: default

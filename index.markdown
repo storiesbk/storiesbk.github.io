@@ -47,14 +47,7 @@ layout: default
 	<div class="row">
 		<div class="col-xs-12">
 			<h2>Storytimes and Events</h2>
-			<p class="lead">We host storytimes with our staff five days a week! All weekday storytimes have a per family fee (see our <a href="storytelling-lab">Storytelling Lab</a> page for details) and are great for babies through toddlers.<br><br>
-				Mondays: 11:30am, 12:30pm, 3:00pm<br>
-				Tuesdays: 10:30am<br>
-				Wednesdays: 11:30am, 12:30pm<br>
-				Thursdays: 10:30am, 11:30am<br>
-				Fridays: 11:30am, 12:30pm
-			</p>
-			<p class="lead">We host a guest author or illustrator most Sundays at 10:30am for a free reading, book signing, and fun story-related activity. Here are some of our upcoming storytimes and other special events:</p>
+			<p class="lead">We host a guest authors or illustrators for a free readings, book signings, and fun story-related activities. Here are some of our upcoming storytimes and other special events:</p>
 		</div>
 	</div>
 	<div class="row">
@@ -127,7 +120,7 @@ layout: default
 	<div class="col-sm-12 col-md-6 p-a-6 color-blue bg-light-blue">
 		<div>
 			<h2 class="m-b-3">Visit Us</h2>
-			<p class="lead text-left">Our home at <a href="https://goo.gl/maps/8wLGcDtRYTG2">458 Bergen Street</a> sits at the nexus of the neighborhoods of Park Slope, Prospect Heights and Boerum Hill. A stone's throw from the bustle of the Barclays Center, it's a quintessential tree-lined Brooklyn block, with many thriving small businesses we are delighted to call neighbors, including
+			<p class="lead text-left">Our former home at <a href="https://goo.gl/maps/8wLGcDtRYTG2">458 Bergen Street</a> is now closed. Read our announcement <a href="https://www.instagram.com/p/CBRA8aKn-PV/">here</a>. Please continue to visit our dear friends and small business comrades, including
 				<a href="http://www.achengshop.com/" target="_blank">A.Cheng</a>,
 				<a href="http://www.babeland.com/" target="_blank">Babeland</a>,
 				<a href="http://www.bklynlarder.com/" target="_blank">BKLYN Larder</a>,

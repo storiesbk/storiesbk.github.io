@@ -47,14 +47,7 @@ layout: default
 	<div class="row">
 		<div class="col-xs-12">
 			<h2>Storytimes and Events</h2>
-			<p class="lead">We host storytimes with our staff five days a week! All weekday storytimes have a per family fee (see our <a href="storytelling-lab">Storytelling Lab</a> page for details) and are great for babies through toddlers.<br><br>
-				Mondays: 11:30am, 12:30pm, 3:00pm<br>
-				Tuesdays: 10:30am<br>
-				Wednesdays: 11:30am, 12:30pm<br>
-				Thursdays: 10:30am, 11:30am<br>
-				Fridays: 11:30am, 12:30pm
-			</p>
-			<p class="lead">We host a guest author or illustrator most Sundays at 10:30am for a free reading, book signing, and fun story-related activity. Here are some of our upcoming storytimes and other special events:</p>
+			<p class="lead">We host a guest authors or illustrators for a free readings, book signings, and fun story-related activities. Here are some of our upcoming storytimes and other special events:</p>
 		</div>
 	</div>
 	<div class="row">

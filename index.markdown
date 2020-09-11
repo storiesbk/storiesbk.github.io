@@ -23,6 +23,19 @@ layout: default
 	</div>
 </div>
 
+<div class="container color-dark-blue p-y-6">
+	<div class="row">
+		<div class="col-xs-12">
+			<h2>The Latest at Stories</h2>
+			<div class='sk-instagram-feed' data-embed-id='6707'></div><script src='https://www.sociablekit.com/app/embed/instagram-feed/widget.js'></script>
+			<br><br>
+		</div>
+		<div class="col-xs-12">
+			<h5 class="notice text-xs-center"><a href="http://instagram.com/storiesbk" target="_blank">Follow us on Instagram &raquo;</a></h5>
+		</div>
+	</div>
+</div>
+
 <div class="flex-full-height">
 	<div class="col-sm-12 col-md-6 p-a-6 m-xs-b-3 color-orange bg-light-yellow">
 		<div>
@@ -43,7 +56,7 @@ layout: default
 	</div>
 </div>
 
-<div class="container color-dark-blue p-y-6">
+<div class="container color-blue p-y-6">
 	<div class="row">
 		<div class="col-xs-12">
 			<h2>Storytimes and Events</h2>
@@ -52,20 +65,6 @@ layout: default
 	</div>
 	<div class="row">
 		<div class='sk-fb-event' data-embed-id='19786'></div><script src='https://www.sociablekit.com/app/embed/facebook-events/widget.js'></script>
-	</div>
-</div>
-
-
-<div class="container color-blue p-y-6">
-	<div class="row">
-		<div class="col-xs-12">
-			<h2>The Latest at Stories</h2>
-			<div class='sk-instagram-feed' data-embed-id='6707'></div><script src='https://www.sociablekit.com/app/embed/instagram-feed/widget.js'></script>
-			<br><br>
-		</div>
-		<div class="col-xs-12">
-			<h5 class="notice text-xs-center"><a href="http://instagram.com/storiesbk" target="_blank">Follow us on Instagram &raquo;</a></h5>
-		</div>
 	</div>
 </div>
 

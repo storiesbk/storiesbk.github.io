@@ -23,6 +23,7 @@ layout: default
 	</div>
 </div>
 
+<!--
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-sm-12 p-a-0">
@@ -74,3 +75,4 @@ layout: default
 		</div>
 	</div>
 </div>
+-->

@@ -3,7 +3,7 @@ title: Stories Bookshop + Storytelling Lab
 slug: home
 hero_text: |-
   ## We believe Stories can change the world.
-  Thank you for sharing Stories with us! Our bookshop is closed to make way for new storytelling adventures. Keep in touch — sign up for Stories news [here](#contact).
+  #### Thank you for sharing Stories with us! Our bookshop is closed to make way for new storytelling adventures. Keep in touch — sign up for Stories news [here](#contact).
 layout: default
 ---
 

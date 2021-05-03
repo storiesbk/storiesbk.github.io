@@ -45,13 +45,13 @@ layout: default
 		<div class="col-xs-12 col-md-5 col-lg-5 m-b-3">
 			<h6 class="section-header">Labs</h6>
 			<p class="small-body">From Art to Yoga to Chess, your kids can explore a rich range of storytelling arts and form a community of artists and writers under the guidance of an expert teaching artist. In each of our classes we will share published stories, and give students a chance to share and present their work. With registration for every lab you will receive one adorable custom Stories notebook to inspire further scribbling.</p>
-			<!-- <a href="https://shop.storiesbk.com/shop/storytelling-lab-programs/55" class="btn btn-primary-outline">Sign Up</a> -->
+		 <a href="https://shop.storiesbk.com/shop/storytelling-lab-programs/55" class="btn btn-primary-outline">Sign Up</a>
 		</div>
 		<div class="col-xs-12 col-md-5 col-lg-5 col-md-offset-1 col-lg-offset-1 m-b-3">
 			<h6 class="section-header">Master Classes</h6>
 			<p class="small-body">Taught by amazing authors and illustrators in the Brooklyn community and beyond, our Stories Master Classes introduce young writers and artists to the world of the professional writer and offer a chance to learn directly from expert practitioners of the art form.</p>
 			<p class="small-body">Our Master Classes are usually 1.5-hour sessions held on a weekday evening or weekend, and focus on some element of storytelling of the master author or artist's choosing.</p>
-			<!-- <a href="https://shop.storiesbk.com/shop/storytelling-lab-programs/55" class="btn btn-primary-outline">Sign Up</a> -->
+			 <a href="https://shop.storiesbk.com/shop/storytelling-lab-programs/55" class="btn btn-primary-outline">Sign Up</a> 
 		</div>
 	</div>
 </div>

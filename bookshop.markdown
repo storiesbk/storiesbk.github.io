@@ -30,15 +30,3 @@ layout: default
 		</div>
 	</div>
 </div>
-
-
-<div class="container color-dark-blue p-y-6">
-	<div class="row">
-		<div class="col-xs-12">
-			<h2 id="Events">Upcoming Events</h2>
-		</div>
-	</div>
-	<div class="row">
-		<div class='sk-fb-event' data-embed-id='19786'></div><script src='https://www.sociablekit.com/app/embed/facebook-events/widget.js'></script>
-	</div>
-</div>

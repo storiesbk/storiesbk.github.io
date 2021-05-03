@@ -1,8 +1,7 @@
 ---
 title: Stories Bookshop + Storytelling Lab
 slug: home
-hero_text: "## We believe Stories can change the world.\n##### [Shop our online store
-  »](https://shop.storiesbk.com/). \n##### [Stay in the loop on our next chapter »](#subscribe)"
+hero_text: "## We believe Stories can change the world."
 layout: default
 ---
 

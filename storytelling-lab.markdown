@@ -31,6 +31,7 @@ layout: default
 	</div>
 </div>
 
+<!--
 <div class="container p-y-3">
 	<div class="row">
 		<div class="col-xs-12 col-md-10">
@@ -74,3 +75,4 @@ layout: default
 		</div>
 	</div>
 </div>
+-->

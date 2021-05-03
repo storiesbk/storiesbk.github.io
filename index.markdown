@@ -54,20 +54,8 @@ layout: default
 	</div>
 </div>
 
-<div class="container color-blue p-y-6">
-	<div class="row">
-		<div class="col-xs-12">
-			<h2>Storytimes and Events</h2>
-			<p class="lead">We host a guest authors or illustrators for a free readings, book signings, and fun story-related activities. Here are some of our upcoming storytimes and other special events:</p>
-		</div>
-	</div>
-	<div class="row">
-		<div class='sk-fb-event' data-embed-id='19786'></div><script src='https://www.sociablekit.com/app/embed/facebook-events/widget.js'></script>
-	</div>
-</div>
 
-
-<div class="container-fluid bg-light-yellow color-orange p-y-6">
+<div class="container-fluid color-blue p-y-6">
 	<div class="row">
 		<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3 text-xs-center">
 			<img height="206" src="{{ site.url }}/img/muscle_2.gif" alt="" aria-hidden="true" width="261">
@@ -77,41 +65,8 @@ layout: default
 	</div>
 </div>
 
-
-<div class="container-fluid bg-light-light-orange color-orange p-y-6 text-xs-center">
-	<div class="row">
-		<div class="col-xs-12 col-md-8 col-md-offset-2">
-			<img src="{{ site.url }}/img/stories2.png" alt="" aria-hidden="true" width="245" height="auto" class="m-b-6">
-			<h2 class="m-b-2">Perfect Stories Book Clubs</h2>
-			<p class="lead">For the Stories community beyond our Brooklyn shop, join
-				or gift our <em>Signed Picture Book-of-the-Month Club</em>:
-				Each month a handpicked Stories gem, signed by the author or illustrator,
-				will arrive in your mailbox, bedecked with a custom Stories bookplate, and
-				paired with our signature Story Starter activity sheets.
-			</p>
-			<p class="lead">
-				Kids ages 0-5 will be delighted by new releases from talented authors and
-				illustrators, ranging from familiar names to new discoveries. This is an
-				ideal gift to help build or grow a modern library for the little one in your life.
-			</p>
-			<h5 class="notice text-xs-center"><a href="https://shop.storiesbk.com/shop/curated-book-of-the-month-clubs/3" target="_blank">Learn more &raquo;</a></h5>
-		</div>
-
-		<!-- <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-xs-center bookclub-list">
-			<form action="//storiesbk.us12.list-manage.com/subscribe/post?u=f23f7dc7a9e1b9c9d88b9d5fa&amp;id=ca64a2e27c" method="post" name="mc-embedded-subscribe-form" class="form-inline" target="_blank" novalidate>
-				<div class="form-group">
-					<input type="email" class="form-control text-xs-center" value="" name="EMAIL" placeholder="Email address" required>
-				</div>
-				<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_f23f7dc7a9e1b9c9d88b9d5fa_ca64a2e27c" tabindex="-1" value=""></div>
-				<input type="submit" value="Subscribe" name="subscribe" class="btn btn-md btn-primary-outline">
-			</form>
-		</div> -->
-	</div>
-</div>
-
 <div class="flex-full-height">
 	<div id="visit-image" class="col-sm-12 col-md-6 p-a-6 color-orange bg-light-blue">
-		<!-- <img src="{{ site.url }}/img/stories_exterior.jpg"/> -->
 	</div>
 
 	<div class="col-sm-12 col-md-6 p-a-6 color-blue bg-light-blue">

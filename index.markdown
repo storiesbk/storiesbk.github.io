@@ -41,7 +41,6 @@ layout: default
 		<div>
 			<a href="bookshop"><h2>Bookshop</h2></a>
 			<p class="lead">Board books and picture books, chapter books and reference books, biographies, myths, folktales, poetry, and more &mdash; we carry a beautiful collection of children's literature for age zero through young adult. We have a section for parents, too, as well as rare, out-of-print, and vintage finds. And, also, the perfect pencils, notebooks, art supplies, and other tools most necessary for all budding storytellers.
-			<br><br><a href="bookshop" class="more-link">Read More</a>
 			</p>
 		</div>
 	</div>

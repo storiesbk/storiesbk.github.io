@@ -82,7 +82,7 @@ layout: default
 				<a href="http://mokbar.com/" target="_blank">MokBar</a>,
 				<a href="http://www.oven.ly/" target="_blank">Ovenly</a>,
 				<a href="http://www.yelp.com/biz/pintchik-brooklyn-2" target="_blank">Pintchik Hardware</a>, and
-				<a href="http://ridebrooklynny.com/" target="_blank">Ride Brooklyn</a>.
+				<a href="http://ridebrooklynny.com/" target="_blank">Ride Brooklyn</a>.</p>
 
 		</div>
 	</div>

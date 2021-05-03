@@ -83,7 +83,6 @@ layout: default
 				<a href="http://www.oven.ly/" target="_blank">Ovenly</a>,
 				<a href="http://www.yelp.com/biz/pintchik-brooklyn-2" target="_blank">Pintchik Hardware</a>, and
 				<a href="http://ridebrooklynny.com/" target="_blank">Ride Brooklyn</a>.
-			</p><a class="underline" href="{{ site.url }}/our-story/">Read More</a>
 
 		</div>
 	</div>

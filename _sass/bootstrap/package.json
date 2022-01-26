@@ -73,7 +73,7 @@
     "grunt-stamp": "^0.1.0",
     "is-travis": "^1.0.0",
     "load-grunt-tasks": "~3.3.0",
-    "markdown-it": "^5.0.0",
+    "markdown-it": ">=12.3.2",
     "mq4-hover-shim": "^0.3.0",
     "npm-shrinkwrap": "^200.1.0",
     "shelljs": ">=0.8.5",

@@ -26,12 +26,8 @@ layout: default
 <div class="container color-dark-blue p-y-6">
 	<div class="row">
 		<div class="col-xs-12">
-			<h2>The Latest at Stories</h2>
-			<div class='sk-instagram-feed' data-embed-id='6707'></div><script src='https://www.sociablekit.com/app/embed/instagram-feed/widget.js'></script>
+			<h2>The Latest at Stories: <a href="http://instagram.com/storiesbk" target="_blank">Follow us on Instagram &raquo;</a></h2>
 			<br><br>
-		</div>
-		<div class="col-xs-12">
-			<h5 class="notice text-xs-center"><a href="http://instagram.com/storiesbk" target="_blank">Follow us on Instagram &raquo;</a></h5>
 		</div>
 	</div>
 </div>
